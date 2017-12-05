@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<body>
+<div id="app">
+    {{message}}
+</div>
+<script>
+    var app = new Vue({
+        el: '#app',
+        data: {
+            msg: 914228510514,/*时间戳*/
+        },
+        computed: {
+            message: function () {
+                var m = new Date(this.msg);
+                return m.getFullYear()+'年'+m.getMonth()+'月'+m.getDate()+'日'
+            }
+        }
+    })
+</script>
+</body>
+</html>
