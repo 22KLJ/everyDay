@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <style>
+        #menu{
+            width: 300px;
+            padding: 100px;
+            margin: 100px auto;
+            background-color: lightblue;
+        }
+        .menuContaine{
+            display: block;
+            width: 100px;
+            height: 100px;
+            background-color: lightcoral;
+            border-bottom: 1px solid #ccc;
+            line-height: 100px;
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <div :id="menu">
+            <a href="" :class="menuContaine">HTML</a>
+            <a href="" :class="menuContaine">CSS</a>
+            <a href="" :class="menuContaine">JS</a>
+            <a href="" :class="menuContaine">VUE</a>
+        </div>
+    </div>
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                menu: 'menu',
+                menuContaine: 'menuContaine'
+            }
+        })
+    </script>
+</body>
+</html>
