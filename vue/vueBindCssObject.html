@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <style>
+        .active{
+            width: 100px;
+            height: 100px;
+            margin:0 auto;
+            background-color: aquamarine;
+        }
+        .black{
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <div :class="{black: isBlack}"
+        class="active">
+
+        </div>
+        <div :class="classObject">
+
+        </div>
+        <div :class="[blackClass,activeClass]">
+
+        </div>
+    </div>
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                isBlack: false,
+                classObject: {
+                    black:true,
+                    active:true
+                },
+                blackClass: '',
+                activeClass: 'active'
+            }
+        })
+    </script>
+</body>
+</html>
