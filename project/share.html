@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>微信分享</title>
+</head>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<body>
+<div id="app">
+    {{message}}
+</div>
+<script>
+    var app = new Vue({
+        el: '#app',
+        data: {
+            message: 'Hello Vue!'
+        },
+        created:function () {
+            var url = location.href.toString();
+            this.axios.get('/share_info?real_url='+url)
+                    .then(function (res) {
+                        console.log(res.data);
+                        wx.config({
+                            debug: false,////生产环境需要关闭debug模式
+                            appId: res.data.data.appid,//appId通过微信服务号后台查看
+                            timestamp: res.data.data.timestamp,//生成签名的时间戳
+                            nonceStr: res.data.data.nonceStr,//生成签名的随机字符串
+                            signature: res.data.data.signature,//签名
+                            jsApiList: [//需要调用的JS接口列表
+                                'checkJsApi',//判断当前客户端版本是否支持指定JS接口
+                                'onMenuShareTimeline',//分享给好友
+                                'onMenuShareAppMessage'//分享到朋友圈
+                            ]
+                        });
+                        wx.ready(function () {
+                            var link = window.location.href;
+                            var protocol = window.location.protocol;
+                            var host = window.location.host;
+                            console.log(self.post.cover)
+                            /*分享朋友圈*/
+                            wx.onMenuShareTimeline({
+                                title: '乐点滑雪', // 分享标题
+                                desc: self.title, // 分享链接
+                                link: link,
+                                imgUrl: self.post.cover, // 分享图标
+                                success: function () {
+                                    // 用户确认分享后执行的回调函数
+                                    alert("分享朋友圈成功")
+                                },
+                                cancel: function () {
+                                    // 用户取消分享后执行的回调函数
+                                    alert("分享朋友圈失败")
+                                }
+                            });
+                            //分享给好友
+                            wx.onMenuShareAppMessage({
+
+                                title: '乐点滑雪', // 分享标题
+                                desc: self.title, // 分享链接
+                                link: link,
+                                imgUrl: self.post.cover, // 分享图标
+                                success: function () {
+                                    // 用户确认分享后执行的回调函数
+                                    alert("分享好友成功")
+                                },
+                                cancel: function () {
+                                    // 用户取消分享后执行的回调函数
+                                    alert("分享好友失败")
+                                }
+                            });
+                            wx.error(function (res) {
+                                console.log("error");
+                                alert(res.errMsg);
+                            });
+                        })
+                    })
+                    .error(function (error) {
+
+                    })
+        }
+    })
+</script>
+</body>
+</html>
