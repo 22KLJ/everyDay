@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>操作placeholder属性</title>
+    <style>
+        input{
+            width: 200px;
+            height: 30px;
+            outline:1px solid yellow;
+        }
+        ::-webkit-input-placeholder{
+            color: lawngreen;
+            font-size:20px;
+        }
+        input:focus::-webkit-input-placeholder{
+            color: transparent;
+        }
+    </style>
+</head>
+<body>
+<input type="text" placeholder="我是placeholder">
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<body>
+<div id="app">
+    <ul>
+        <li v-for="item in items">
+            {{item.message}}
+        </li>
+    </ul>
+    <ul>
+        <li v-for="(ticket,index) in tickets">
+            p-{{index}}-{{ticket.message}}
+        </li>
+    </ul>
+    <ul>
+        <li v-for="(ticket,index,key) in choose">
+            p-{{index}}-{{key}}-{{ticket}}
+        </li>
+    </ul>
+</div>
+<script>
+    var app = new Vue({
+        el: '#app',
+        data: {
+            message: 'Hello Vue!',
+            items:[
+                {message:'我是第一个'},
+                {message:'我是第二个'}
+            ],
+            tickets:[
+                {message:'我是第一个'},
+                {message:'我是第二个'}
+            ],
+            choose:{
+                first:'HTML',
+                second:'CSS',
+                third:'JS'
+            }
+
+        }
+    })
+</script>
+</body>
+</html>
