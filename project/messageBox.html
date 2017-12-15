@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/mint-ui/lib/style.css">
+<script src="https://unpkg.com/mint-ui/lib/index.js"></script>
+<body>
+<div id="app">
+    <button @click="messageAlert">点击弹出提示框</button>
+</div>
+<script>
+    var app = new Vue({
+        el: '#app',
+        data: {
+            message: 'Hello Vue!'
+        },
+        methods:{
+            messageAlert (){
+                MessageBox.alert('我是一个弹框');
+            }
+        }
+
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>点击滑动</title>
+    <style>
+        #waiCeng{
+            width: 200px;
+            height: 100px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        #neiceng{
+            width: 200px;
+            height: 100px;
+            background-color: lawngreen;
+            overflow-x:auto ;
+        }
+        ::-webkit-scrollbar {
+            width:0px;
+        }
+    </style>
+</head>
+<body>
+<div id="waiCeng">
+    <div id="neiceng">
+        <div style="width: 500px">点击滑动需要设置三层，第一层宽100%，第二层宽100%，第三层宽200%。第一层overflow:hidden,第二层overflow-x:scroll。设置::-webkit-scrollbar{width:0px}隐藏滚动条</div>
+    </div>
+</div>
+</body>
+</html>
