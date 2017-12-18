@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Title</title>
+    <style>
+        .headerWrapper{
+            height: 50px;
+            line-height: 50px;
+            width: 100%;
+            background-color: #fff;
+            position: fixed;
+            z-index: 9999;
+        }
+        .headerTip{
+            text-align: left;
+            line-height: 50px;
+            margin-left:10px;
+            font-size: 15px;
+        }
+        .comfire{
+            height: 26px;
+            line-height: 26px;
+            width: 50px;
+            color: #2EB6A8;
+            position: absolute;
+            right: 10px;
+            text-align: center;
+            font-size: 14px;
+            cursor: pointer;
+            top: 11px;
+            border:1px solid #2EB6A8 ;
+            border-radius:5px;
+        }
+    </style>
+</head>
+<body>
+<div class='headerWrapper'>
+    <div class='headerTip'>请选择入住离店日期</div>
+    <div class='comfire'>完成</div>
+</div>
+<table class='dateZone'>
+    <tr>
+        <td class='colo'>日</td>
+        <td>一</td>
+        <td>二</td>
+        <td>三</td>
+        <td>四</td>
+        <td>五</td>
+        <td class='colo'>六</td>
+    </tr>
+</table>
+<div class='tbody'>
+    <p class='ny1'></p>
+    <table class='dateTable'>
+
+    </table>
+</div>
+</body>
+</html>

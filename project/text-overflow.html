@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>单行、多行溢出显示省略号</title>
+    <style>
+        .line{
+            width: 100px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            border: 1px solid #ccc;
+        }
+        .lines{
+            width: 100px;
+            overflow: hidden;
+            border: 1px solid #ccc;
+            display: -webkit-box;
+            -webkit-line-clamp:2;
+            -webkit-box-orient: vertical;
+        }
+    </style>
+</head>
+<body>
+    <div class="line">单行、多行溢出显示省略号,单行省略号</div>
+    <div class="lines">单行、多行溢出显示省略号,单行省略号单行、多行溢出显示省略号</div>
+</body>
+</html>

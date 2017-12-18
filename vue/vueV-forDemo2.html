@@ -7,11 +7,8 @@
 <script src="https://unpkg.com/vue/dist/vue.js"></script>
 <body>
 <div id="app">
-    <input
-        v-model="newTodoText"
-        @keyup.enter="addNewTodo"
-        placeholder="Add a todo"
-    >
+    <input v-model="newTodoText" @keyup.enter="addNewTodo"
+        placeholder="Add a todo">
     <ul>
         <li
             is="todo-item"
@@ -27,7 +24,7 @@
         template:`<li>{{title}}<button @click="$emit('remove')">X</button></li>`,
         props: ['title']
     })
-    var app = new Vue({
+    let app = new Vue({
         el: '#app',
         data: {
             message: 'Hello Vue!',

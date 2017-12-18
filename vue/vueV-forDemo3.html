@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        ul{
+            width: 200px;
+        }
+        .todo{
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<body>
+<div id="app">
+    <ul>
+        <template v-for="item in items">
+            <li>{{item.id}}</li>
+            <li class="todo">123</li>
+        </template>
+    </ul>
+</div>
+<script>
+    let app = new Vue({
+        el: '#app',
+        data: {
+            message: 'Hello Vue!',
+            items:[
+                {
+                    id:1
+                },
+                {
+                    id:2
+                },
+                {
+                    id:3
+                }
+            ]
+        }
+    })
+</script>
+</body>
+</html>
