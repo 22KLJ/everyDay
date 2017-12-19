@@ -213,7 +213,7 @@
                 var arry = [];
                 var arry1 = [];
                 var tds = $(me.sections).find('.dateTable').eq(0).find('td');
-                tds.each(function(index, element) {
+                tds.each(function(index, element)   {
                     if ($(this).text() == strDays) {
                         var r = index;
                         $(this).append('</br><p class="rz">入住</p>');

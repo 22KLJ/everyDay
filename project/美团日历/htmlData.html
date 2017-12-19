@@ -5,56 +5,196 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Title</title>
     <style>
-        .headerWrapper{
-            height: 50px;
-            line-height: 50px;
-            width: 100%;
-            background-color: #fff;
-            position: fixed;
-            z-index: 9999;
+        *{
+            margin: 0;
+            padding: 0;
         }
-        .headerTip{
-            text-align: left;
-            line-height: 50px;
-            margin-left:10px;
-            font-size: 15px;
+        body{
+            background-color: #42a9ff;
+            color: #ffffff;
         }
-        .comfire{
-            height: 26px;
-            line-height: 26px;
-            width: 50px;
-            color: #2EB6A8;
-            position: absolute;
-            right: 10px;
+        body table{
+            background-color: #42a9ff;
+            border: none;
+            border-collapse:collapse;
+            border-spacing:0;
+        }
+        body td{
             text-align: center;
-            font-size: 14px;
-            cursor: pointer;
-            top: 11px;
-            border:1px solid #2EB6A8 ;
-            border-radius:5px;
+        }
+        .header{
+            padding: 17px 0 26px 15px;
+            font-size: 24px;
+        }
+        .showDate{
+            padding: 0 15px 10px 15px;
+            font-size:22px;
+            height: 60px;
+        }
+        .showDate_top,.showDate_bottom{
+            height: 28px;
+            padding-bottom: 5px;
+        }
+        .showDate .showDate_top_left,.showDate .showDate_bottom_left{
+            float: left;
+        }
+        .showDate .showDate_top_right,.showDate .showDate_bottom_right{
+            float: right;
+        }
+        .dateZone{
+            width:100%;
+            margin:auto;
+            border-bottom:1px solid #ddd;
+            position: relative;
+        }
+        .dateZone td{
+            height:20px;
+            width:14.2%;
+            font-size: 12px;
+        }
+        .tBody{
+            border-bottom: 1px solid #fff;
+        }
+        .tBody p{
+            padding: 0 15px;
+            font-size: 22px;
+        }
+        .dateTable{
+            width: 100%;
+        }
+        .dateTable td{
+            height: 33px;
         }
     </style>
 </head>
 <body>
-<div class='headerWrapper'>
-    <div class='headerTip'>请选择入住离店日期</div>
-    <div class='comfire'>完成</div>
+<div class="header">出行日期</div>
+<div class="showDate">
+    <div class="showDate_top">
+        <div class="showDate_top_left">10月29日</div>
+        <div class="showDate_top_right">11月4日</div>
+    </div>
+    <div class="showDate_bottom">
+        <div class="showDate_bottom_left">周六</div>
+        <div class="showDate_bottom_right">周日</div>
+    </div>
 </div>
 <table class='dateZone'>
     <tr>
-        <td class='colo'>日</td>
+        <td>日</td>
         <td>一</td>
         <td>二</td>
         <td>三</td>
         <td>四</td>
         <td>五</td>
-        <td class='colo'>六</td>
+        <td>六</td>
     </tr>
 </table>
-<div class='tbody'>
-    <p class='ny1'></p>
+<div class='tBody'>
+    <p class='ny1'>十二月</p>
     <table class='dateTable'>
-
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+            <td>16</td>
+        </tr>
+        <tr>
+            <td>17</td>
+            <td>18</td>
+            <td>19</td>
+            <td>20</td>
+            <td>21</td>
+            <td>22</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>24</td>
+            <td>25</td>
+            <td>26</td>
+            <td>27</td>
+            <td>28</td>
+            <td>29</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>31</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <p class='ny1'>一月</p>
+    <table class='dateTable'>
+        <tr>
+            <td></td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+            <td>13</td>
+        </tr>
+        <tr>
+            <td>14</td>
+            <td>15</td>
+            <td>16</td>
+            <td>17</td>
+            <td>18</td>
+            <td>19</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>21</td>
+            <td>22</td>
+            <td>23</td>
+            <td>24</td>
+            <td>25</td>
+            <td>26</td>
+            <td>27</td>
+        </tr>
+        <tr>
+            <td>28</td>
+            <td>29</td>
+            <td>30</td>
+            <td>31</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
     </table>
 </div>
 </body>
