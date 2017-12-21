@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>生命周期</title>
+</head>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<body>
+<div id="app">
+    <p>这个按钮被点击了{{count}}次</p>
+    <div>{{number}}</div>
+    <input type="button" value="增加number" @click="btnGetNumber">
+</div>
+<script>
+    let app = new Vue({
+        el: '#app',
+        data: {
+            message: 'Hello Vue!',
+            count:0,
+            number:0
+        },
+        methods: {
+            btnGetNumber: function (event) {
+                this.number+=1;
+                console.log(event.target)
+            }
+        },
+        beforeCreate: function () {
+            console.log('beforeCreate钩子执行...');
+            console.log(this.number)
+        },
+        created: function () {
+            console.log('created钩子执行...');
+            console.log(this.number)
+        },
+        beforeMount: function () {
+            console.log('beforeMount钩子执行...');
+            console.log(this.number)
+        },
+        mounted: function () {
+            console.log('mounted钩子执行...');
+            console.log(this.number)
+        },
+        beforeUpdate: function () {
+            console.log('beforeUpdate钩子执行...');
+            console.log(this.number)
+        },
+        updated: function () {
+            console.log('updated钩子执行...');
+            console.log(this.number)
+        },
+        beforeDestroy: function () {
+            console.log('beforeDestroy钩子执行...');
+            console.log(this.number)
+        },
+        destroyed: function () {
+            console.log('destroyed钩子执行...');
+            console.log(this.number)
+        }
+    })
+</script>
+</body>
+</html>

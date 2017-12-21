@@ -7,18 +7,34 @@
 <script src="https://unpkg.com/vue/dist/vue.js"></script>
 <body>
 <div id="app">
-    {{message}}
+    {{message}} <br>
+    {{a}} <br>
+    {{a1}} <br>
+    {{a2}}{{a}} <br>
 </div>
 <script>
     var app = new Vue({
         el: '#app',
         data: {
             msg: 914228510514,/*时间戳*/
+            a:1
         },
         computed: {
             message: function () {
                 var m = new Date(this.msg);
                 return m.getFullYear()+'年'+m.getMonth()+'月'+m.getDate()+'日'
+            },
+            a1: function () {
+                return this.a*2
+            },
+            a2:{
+                get: function () {
+                    return this.a+1
+                },
+                set: function () {
+                    this.a = 1
+                    console.log(a)
+                }
             }
         }
     })

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>键盘事件</title>
+</head>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<body>
+<div id="app">
+    <input type="text" @keyup.enter="enterKey" v-model="enter">
+    <input type="text" @keyup.delete="deleteKey" v-model="enter2">
+    <input type="text" @keyup="tabKey($event)" v-model="enter3">
+    <button @mouseup.left.prevent="mouseLeft">点击</button>
+    <button @mouseup.middle.prevent="mouseLeft">中键</button>
+</div>
+<script>
+    let app = new Vue({
+        el: '#app',
+        data: {
+            message: 'Hello Vue!',
+            enter: '',
+            enter2: '',
+            enter3: '',
+        },
+        methods: {
+            enterKey: function () {
+              alert(this.enter)
+          }, 
+            tabKey: function (ev) {
+               alert(ev.keyCode)
+               console.log(ev.path)
+           },
+            deleteKey: function () {
+                alert(this.enter2)
+            },
+            mouseLeft:function () {
+                alert("66666")
+            }
+        }
+    })
+</script>
+</body>
+</html>
