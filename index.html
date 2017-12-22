@@ -138,3 +138,38 @@
                 }
     vueLifeCycleDemo:生命周期，mounted一次，函数一般写在created里面
 </div>
+<p>2017/12/22</p>
+<div>
+    修改wamp文件
+        目录：D:\wamp\bin\apache\apache2.4.17\conf\extra
+        <VirtualHost *:80>
+
+            ServerAdmin webmaster@dummy-host.localhost
+
+            DocumentRoot "D:/wamp/www"
+
+            ServerName localhost
+        </VirtualHost>
+    建立了第一个php文件
+</div>
+<div>
+    vueV.extend:全局扩展
+                new Parent().$mount("#app")
+                var children = new parent({
+                    el:'#app'
+                })
+    vueWholeComponent:全局注册组件:
+                Vue.component('my-component',{
+                    template:'<p>123</p>'
+                })
+    vuePartComponent:局部注册组件:
+                var Part ={
+                    template: '<p>123</p>'
+                }
+                var app = new Vue({
+                    ...
+                    components: {
+                        'my-component': Part
+                        }
+                })
+</div>

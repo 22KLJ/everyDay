@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>全局注册</title>
+</head>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<body>
+<div id="app">
+    <my-component></my-component>
+</div>
+<script>
+    Vue.component('my-component',{
+        template: '<div>我是一个全局组件</div>'
+    });
+    new Vue({
+        el: '#app'
+    })
+</script>
+</body>
+</html>

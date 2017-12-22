@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>全局扩展</title>
+</head>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<body>
+<div id="app"></div>
+<div id="children"></div>
+<script>
+    let Parent = Vue.extend({
+        template: `<div><p>{{name}}</p><p>{{age}}</p></div>`,
+        data: function () {
+            return {
+                name: '小华',
+                age: '年方二八,貌美如花'
+            }
+        }
+    });
+    new Parent().$mount('#app');
+    let children = new Parent({
+        el: '#children'
+    })
+</script>
+</body>
+</html>

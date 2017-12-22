@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>局部注册</title>
+</head>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<body>
+<div id="app">
+    <part-component></part-component>
+</div>
+<script>
+    var Part = {
+        template: '<div>我是一个局部注册组件</div>'
+    }
+    var app = new Vue({
+        el: '#app',
+        data: {
+            message: 'Hello Vue!'
+        },
+        components: {
+            'part-component': Part
+        }
+    })
+</script>
+</body>
+</html>
