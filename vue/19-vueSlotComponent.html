@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<body>
+<div id="app">
+    <my-slot>
+        <div>写在父容器</div>
+    </my-slot>
+    <my-slot>{{message}}</my-slot>
+    <my-slot></my-slot>
+</div>
+<script>
+    var Slot = {
+        template:'<div><h3>这里是子组件</h3></hr><slot>slot标签会被父容器写的额外的内容替换掉，如果父容器没有写入任何东西，此标签将保留！</slot></div>'
+    };
+    var app = new Vue({
+        el: '#app',
+        data: {
+            message: 'Hello Vue!'
+        },
+        components: {
+            'my-slot':Slot
+        }
+    })
+</script>
+</body>
+</html>
