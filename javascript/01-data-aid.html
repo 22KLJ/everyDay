@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        [data-aid='2']{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li data-aid="2">2</li>
+        <li data-aid="3">3</li>
+    </ul>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $("[data-aid='3']").css("color","yellow")
+        })
+    </script>
+</body>
+</html>
