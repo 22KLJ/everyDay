@@ -2,28 +2,57 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>vue-router</title>
+    <title>vue-router入门</title>
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+    <style>
+        a{
+            text-decoration: none;
+            color: gray;
+        }
+        .router-link-active{
+            color: red;
+        }
+    </style>
 </head>
-<script src="https://unpkg.com/vue/dist/vue.js"></script>
-<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
 <body>
 <div id="app">
-    <top-bar></top-bar>
-    <router-link></router-link>
+    <router-link to="/home">Home</router-link>
+    <router-link to="/foo">Foo</router-link>
+    <router-view></router-view>
 </div>
 <script>
-    var router = new VueRouter({
-        routes:[
-            {path: '/home',component:home},
-            {path: '/product',component:product}
+
+    // 创建home模块
+    const home = {
+        template: `<div> {{ msg }}</div>`,
+        data: function () {
+            return { msg: 'this is home view' }
+        }
+    };
+
+    // 创建foo 模块
+    const foo = {
+        template: `<div> {{ msg }}</div>`,
+        data: function () {
+            return { msg: 'this is foo view' }
+        }
+    };
+
+    // 定义路由对象
+    const router = new VueRouter({
+        routes: [
+            { path: '/', component: home },
+            { path: '/home', component: home },
+            { path: '/foo', component: foo }
         ]
     });
-    var app = new Vue({
+
+    // 初始化一个Vue实例
+    const app = new Vue({
         el: '#app',
-        data: {
-            message: 'Hello Vue!'
-        }
-    })
+        router
+    });
 </script>
 </body>
 </html>
