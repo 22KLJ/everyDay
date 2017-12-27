@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vue-router入门</title>
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+    <style>
+        a{
+            text-decoration: none;
+            color: gray;
+        }
+        .router-link-active{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+    <router-link to="/home/1">Home</router-link>
+    <router-link to="/home/2">Foo</router-link>
+    <router-view></router-view>
+</div>
+<script>
+
+    // 创建home模块
+    const home = {
+        template: `<div> {{ msg }}{{$route.params.id}}</div>`,
+        data: function () {
+            return { msg: 'this is home view' }
+        }
+    };
+
+    // 定义路由对象
+    const router = new VueRouter({
+        routes: [
+            { path: '/home/:id', component: home }
+        ]
+    });
+
+    // 初始化一个Vue实例
+    const app = new Vue({
+        el: '#app',
+        router
+    });
+</script>
+</body>
+</html>
