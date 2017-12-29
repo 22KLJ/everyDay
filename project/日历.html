@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #42a9ff;
+            color: #ffffff;
+        }
+        body table{
+            background-color: #42a9ff;
+            border: none;
+            border-collapse:collapse;
+            border-spacing:0;
+        }
+        body td{
+            text-align: center;
+        }
+        .header{
+            padding: 17px 0 26px 15px;
+            font-size: 24px;
+        }
+        .showDate{
+            padding: 0 15px 10px 15px;
+            font-size:22px;
+            height: 60px;
+        }
+        .showDate_top,.showDate_bottom{
+            height: 28px;
+            padding-bottom: 5px;
+        }
+        .showDate .showDate_top_left,.showDate .showDate_bottom_left{
+            float: left;
+        }
+        .showDate .showDate_top_right,.showDate .showDate_bottom_right{
+            float: right;
+        }
+        .dateZone{
+            width:100%;
+            margin:auto;
+            border-bottom:1px solid #ddd;
+            position: relative;
+        }
+        .dateZone td{
+            height:20px;
+            width:14.2%;
+            font-size: 12px;
+        }
+        /*calendar以下样式*/
+        .today {
+            /*px*/
+            color: #FFFFFF;
+            background: #42a9ff;
+            border-bottom: 1px solid #FFFFFF;
+        }
+        .calendar-item .calendar-body ul{
+            list-style: none;
+            background-color: #42a9ff;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around
+        }
+        .calendar-header{
+            margin-left: 15px;
+            font-size: 22px;
+        }
+        .calendar-item .calendar-body li {
+            text-align: center;
+            height: 33px;
+            vertical-align: middle;
+            border: none;
+            color: #fff;
+            width: 14.28%;
+            position: relative
+        }
+        .calendar-item .calendar-body div {
+
+        }
+        .calendar-item .calendar-body span {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            height: 33px;
+            line-height: 33px;
+            /*px*/
+        }
+        .disabled{
+            color: #ccc;
+        }
+    </style>
+</head>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<body>
+<div id="app">
+    <div class="header">出行日期</div>
+    <div class="showDate">
+        <div class="showDate_top">
+            <div class="showDate_top_left">10月29日</div>
+            <div class="showDate_top_right">11月4日</div>
+        </div>
+        <div class="showDate_bottom">
+            <div class="showDate_bottom_left">周六</div>
+            <div class="showDate_bottom_right">周日</div>
+        </div>
+    </div>
+    <table class='dateZone'>
+        <tr>
+            <td>日</td>
+            <td>一</td>
+            <td>二</td>
+            <td>三</td>
+            <td>四</td>
+            <td>五</td>
+            <td>六</td>
+        </tr>
+    </table>
+    <div class="calendar">
+        <div class="calendar-item" v-for="(date,index) in dateArr" :key="index">
+            <div class="calendar-header">
+                <span>{{date.mon}}月</span>
+            </div>
+            <div class="calendar-body">
+                <ul class="days">
+                    <li v-for="day in date.days" >
+                        <div v-if="day.getMonth()+1 != date.m">
+                            <span></span>
+                        </div>
+                        <div v-else-if="isToday(day)" @click="clickAction(day,$event)" :gettime="day.getTime()" :class="{today: isCurrentDay(day)}">
+                            <span>{{day.getDate() }}</span>
+                        </div>
+                        <div v-else :class="{today: isCurrentDay(day)}">
+                            <template v-if="day<new Date()">
+                                <span class="disabled" :gettime="day.getTime()">{{ day.getDate() }}</span>
+                            </template>
+                            <template v-else>
+                                <span @click="clickAction(day,$event)" :getTime="day.getTime()">{{ day.getDate() }}</span>
+                            </template>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var app = new Vue({
+        el: '#app',
+        data() {
+            return {
+                currentDate: {
+                    currentDay: null,
+                    currentMonth: null,
+                    currentYear: null,
+                    currentWeek: null
+                },
+                dateArr: [],
+                clickNumber:0
+            }
+        },
+        created() {
+            for (let x = 0; x < 12; x++) {
+                let days = this.calendarInit(this.currentDate.currentYear, this.currentDate.currentMonth);
+                let timeObj = {
+                    y: this.currentDate.currentYear,
+                    m: this.currentDate.currentMonth,
+                    mon:this.numberChange(this.currentDate.currentMonth),
+                    days
+                };
+                console.log(timeObj);
+                this.dateArr.push(timeObj);
+            }
+        },
+        methods: {
+            clickAction(day,event){
+
+                if(this.clickNumber == '0'){
+                    this.clickNumber++;
+                    event.target.style.backgroundColor = '#54C7FC';
+                    g1=event.target.getAttribute('getTime');
+                }else if(this.clickNumber == '1'){
+                    this.clickNumber++;
+                    g2=event.target.getAttribute('getTime');
+                    for(i=0;i<document.getElementsByTagName('span').length;i++){
+                        if(document.getElementsByTagName('span')[i].getAttribute('getTime')>g1&&document.getElementsByTagName('span')[i].getAttribute('getTime')<=g2){
+                            document.getElementsByTagName('span')[i].style.backgroundColor = '#54C7FC';
+                        }
+                    }
+                }else if(this.clickNumber == '2'){
+                    this.clickNumber = '1';
+                    for(i=0;i<document.getElementsByTagName('span').length;i++){
+                        document.getElementsByTagName('span')[i].style.backgroundColor = '#42a9ff'
+                    }
+                    event.target.style.backgroundColor = '#54C7FC';
+                    g1=event.target.getAttribute('getTime');
+                }
+
+
+            },
+            numberChange(m){
+                if(m==2){
+                    return '二'
+                }
+                if(m==3){
+                    return '三'
+                }
+                if(m==4){
+                    return '四'
+                }
+                if(m==5){
+                    return '五'
+                }
+                if(m==6){
+                    return '六'
+                }
+                if(m==7){
+                    return '七'
+                }
+                if(m==8){
+                    return '八'
+                }
+                if(m==9){
+                    return '九'
+                }
+                if(m==10){
+                    return '十'
+                }
+                if(m==11){
+                    return '十一'
+                }
+                if(m==12){
+                    return '十二'
+                }
+                if(m==1){
+                    return '一'
+                }
+            },
+            isCurrentDay(day) {
+                let d = this.selectDate;
+                if (d != null) {
+                    return day.getFullYear() == d.getFullYear() && day.getMonth() == d.getMonth() && day.getDate() == d.getDate() ? true : false;
+                } else {
+                    return day.getFullYear() == new Date().getFullYear() && day.getMonth() == new Date().getMonth() && day.getDate() == new Date().getDate() ? true : false;
+                }
+            },
+            getNum(date) {
+                let lastDay = this.nums.length && this.nums[this.nums.length - 1].reTravelDate;
+                let day = this.formatDate(date.getFullYear(), date.getMonth() + 1, date.getDate());
+                if (day > lastDay) {
+                    return '';
+                }
+                for (let x in this.nums) {
+                    if (this.nums[x].reTravelDate == day) {
+                        return '剩' + this.nums[x].availableAmount + '人';
+                    }
+                }
+            },
+            isToday(day) {
+                return day.getFullYear() == new Date().getFullYear() && day.getMonth() == new Date().getMonth() && day.getDate() == new Date().getDate() ? true : false;
+            },
+            getDay(date) {
+                this.currentDate.currentDay = date.getDate();//1
+                this.currentDate.currentYear = date.getFullYear();//2017
+                this.currentDate.currentMonth = date.getMonth() + 1;//12
+                this.currentDate.currentWeek = date.getDay() + 1;//6
+                if (this.currentDate.currentWeek == 0) {
+                    this.currentDate.currentWeek = 7;
+                }
+            },
+            formatDate(year, month, day) {
+                let y = year;
+                let m = month;
+                if (m < 10) m = "0" + m;
+                let d = day;
+                if (d < 10) d = "0" + d;
+                return y + "-" + m + "-" + d
+            },
+            calendarInit(year, month) {
+                let date, d;
+                let days = [];
+                if (year == null || month == null) {
+                    let _date = new Date(); //Fri Dec 29 2017 14:16:20 GMT+0800 (中国标准时间)
+                    d = new Date(_date.getFullYear(), _date.getMonth() - 1, 1);//Wed Nov 01 2017 00:00:00 GMT+0800 (中国标准时间)
+                } else {
+                    d = new Date(year, month - 1, 1);
+                }
+                d.setDate(42);//1513008000000
+                date = new Date(d.getFullYear(), d.getMonth(), 1);//Fri Dec 01 2017 00:00:00 GMT+0800 (中国标准时间)
+                this.getDay(date);
+                for (let i = this.currentDate.currentWeek - 1; i >= 0; i--) {
+                    let d = new Date(this.currentDate.currentYear, this.currentDate.currentMonth - 1, this.currentDate.currentDay);
+                    d.setDate(d.getDate() - i);
+                    days.push(d);
+                }
+                for (let i = 1; i <= 42 - this.currentDate.currentWeek; i++) {
+                    let d = new Date(this.currentDate.currentYear, this.currentDate.currentMonth - 1, this.currentDate.currentDay);
+                    d.setDate(d.getDate() + i);
+                    days.push(d);
+                }
+                return days;
+            },
+        },
+    })
+</script>
+</body>
+</html>
