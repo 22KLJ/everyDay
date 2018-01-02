@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href="http://www.baidu.com">
+    <span>1</span>
+    <div onclick="alert_oclick(id,event)" id="1">2</div>
+</a>
+<script>
+    function alert_oclick(id,e) {
+        alert('123')
+        alert(id)
+        //阻止默认浏览器动作(W3C)
+        if ( e && e.preventDefault ){
+            e.preventDefault();
+            //IE中阻止函数器默认动作的方式
+        } else{
+            window.event.returnValue = false;
+        }
+
+
+    }
+</script>
+</body>
+</html>
