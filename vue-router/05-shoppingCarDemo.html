@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+<body>
+<div id="app">
+    <product-list :products="products" @add="addToCarts"></product-list>
+    <hr>
+    <cart :cart-products="carts"></cart>
+</div>
+<script>
+    // 创建bus对象
+    var bus = new Vue()
+    // 创建product-list模块
+    Vue.component('product-list',{
+        template:`
+        <table>
+            <thead>
+                <tr>
+                    <th>商品编号</th>
+                    <th>商品名</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="item in products">
+                    <td>{{item.id}}</td>
+                    <td>{{item.name}}</td>
+                    <td>
+                        <button  @click="add(item)">添加</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        `,
+        data () {
+            return {
+
+            }
+        },
+        methods: {
+            add (item) {
+                console.log(item);
+                this.$emit('add',item)
+            }
+        },
+        props: ['products'],
+    })
+    // 创建cart模块
+    Vue.component('cart',{
+        template:`
+        <table>
+            <thead>
+                <tr>
+                    <th>商品编号</th>
+                    <th>商品名</th>
+                    <th>数量</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="item in cartProducts">
+                    <td>{{item.id}}</td>
+                    <td>{{item.name}}</td>
+                    <td>{{item.count}}</td>
+                    <td>
+                        <button @click="removeCarts(item)">删除</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        `,
+        props: ['cartProducts'],
+        data () {
+            return {
+
+            }
+        },
+        methods: {
+            removeCarts (item) {
+                bus.$emit('remo',item)
+            }
+        }
+    })
+    // 初始化vue实例
+    const app = new Vue({
+        el: '#app',
+        data: {
+            products: [
+                {id:'1',name:'兔子'},
+                {id:'2',name:'青蛙'},
+                {id:'3',name:'松鼠'},
+                {id:'4',name:'蛇'},
+            ],
+            carts: []
+        },
+        methods: {
+            addToCarts (item) {
+                var isExist = false
+                for(var i=0; i<this.carts.length; i++) {
+                    if( item.id === this.carts[i].id ) {
+                        item.count = this.carts[i].count + 1
+                        Vue.set(this.carts, i, item)
+                        isExist = true
+                    }
+                }
+                !isExist && (item.count = 1, this.carts.push(item))
+            },
+            removeCarts: function (item) {
+                for(var i =0; i<this.carts.length; i++) {
+                    if( item.id === this.carts[i].id) {
+                        this.carts.splice(i,1)
+                    }
+                }
+            }
+        },
+        mounted () {
+            self = this;
+            bus.$on('remo',function (item) {
+                self.removeCarts(item)
+            })
+        }
+    })
+</script>
+</body>
+</html>

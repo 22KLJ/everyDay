@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+<body>
+<div id="app">
+    <router-view></router-view>
+</div>
+<script>
+    // 创建User模块
+    const User = {
+        template:`<div>User2{{$route.params.id}}</div>`
+    }
+    // 创建UserProfile模块
+    const UserProfile ={
+        template:`
+        <div>
+            <h2>User1{{$route.params.id}}</h2>
+            <router-view></router-view>
+        </div>`
+    }
+    // 定义路由对象
+    const router = new VueRouter({
+        routes: [
+            {
+                path: '/user/:id',
+                component: UserProfile,
+                children: [
+                    {
+                        path: 'profile',
+                        component: User,
+                    }
+
+                ]
+            }
+        ]
+    })
+    //初始化Vue实例
+    const app = new Vue({
+        el: '#app',
+        data: {
+            message: 'Hello Vue!'
+        },
+        router
+    })
+
+</script>
+</body>
+</html>

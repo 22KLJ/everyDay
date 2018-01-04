@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+<body>
+<div id="app">
+    <p>推荐次数:{{voteCount}}</p>
+    <hr>
+    <vote-btn @vote="voteAction" @send="sendMsg"></vote-btn>
+    <ul class="list-group">
+        <li v-for="item in msg" class="list-group-item">{{item}}</li>
+    </ul>
+</div>
+<script>
+    // 创建vote-btn模块
+    Vue.component('vote-btn',{
+        template:`
+        <div>
+            <button class="btn btn-success" @click="voteAction">推荐</button>
+            <hr>
+            <input type="text" v-model="txtMsg">
+            <button @click="sendMsg" class="btn-success">发送消息</button>
+        </div>
+        `,
+        data: function () {
+            return {
+              txtMsg: ''
+            }
+        },
+        methods: {
+            voteAction: function () {
+                // 触发事件，vote
+                this.$emit('vote')
+            },
+            sendMsg () {
+                // 触发事件，sendMsg
+                this.$emit('send',this.txtMsg)
+            }
+        }
+    })
+    var app = new Vue({
+        el: '#app',
+        data: {
+            voteCount: 0,
+            msg: []
+        },
+        methods: {
+            voteAction () {
+                this.voteCount++;
+            },
+            sendMsg (item) {
+                this.msg.push(item)
+                console.log(this.msg)
+            }
+        }
+    })
+</script>
+</body>
+</html>
