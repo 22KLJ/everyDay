@@ -2,108 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="764c4d75-58ee-4e81-8f4e-65d25d71ccc6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/vue-project/snow/.babelrc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/snow/.editorconfig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/snow/.eslintignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/snow/.eslintrc.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/snow/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/snow/.postcssrc.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/snow/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/snow/build/build.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/snow/build/check-versions.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/snow/build/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/snow/build/utils.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/snow/build/vue-loader.conf.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/snow/build/webpack.base.conf.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/snow/build/webpack.dev.conf.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/snow/build/webpack.prod.conf.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/snow/config/dev.env.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/snow/config/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/snow/config/prod.env.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/snow/config/test.env.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/snow/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/snow/package-lock.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/snow/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/snow/src/App.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/snow/src/assets/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/snow/src/components/HelloWorld.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/snow/src/components/common/BottomBar.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/snow/src/components/common/TripPage.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/snow/src/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/snow/src/router/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/snow/static/.gitkeep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/snow/test/e2e/custom-assertions/elementCount.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/snow/test/e2e/nightwatch.conf.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/snow/test/e2e/runner.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/snow/test/e2e/specs/test.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/snow/test/unit/.eslintrc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/snow/test/unit/jest.conf.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/snow/test/unit/setup.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/snow/test/unit/specs/HelloWorld.spec.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/test/.babelrc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/test/.editorconfig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/test/.eslintignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/test/.eslintrc.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/test/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/test/.postcssrc.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/test/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/test/build/build.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/test/build/check-versions.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/test/build/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/test/build/utils.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/test/build/vue-loader.conf.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/test/build/webpack.base.conf.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/test/build/webpack.dev.conf.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/test/build/webpack.prod.conf.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/test/config/dev.env.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/test/config/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/test/config/prod.env.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/test/config/test.env.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/test/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/test/package-lock.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/test/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/test/src/App.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/test/src/assets/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/test/src/components/Hello.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/test/src/components/Home.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/test/src/components/User.vue" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/test/src/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/test/src/router/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/test/static/.gitkeep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/test/test/e2e/custom-assertions/elementCount.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/test/test/e2e/nightwatch.conf.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/test/test/e2e/runner.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/test/test/e2e/specs/test.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/test/test/unit/.eslintrc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/test/test/unit/jest.conf.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/test/test/unit/setup.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-project/test/test/unit/specs/HelloWorld.spec.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vue-router/01-vue-routerDemo.html" afterPath="$PROJECT_DIR$/Vue/vue-router/01-vue-routerDemo.html" />
-      <change beforePath="$PROJECT_DIR$/vue-router/02-dynamicRouterDemo.html" afterPath="$PROJECT_DIR$/Vue/vue-router/02-dynamicRouterDemo.html" />
-      <change beforePath="$PROJECT_DIR$/vue-router/03-nestRouterDemo.html" afterPath="$PROJECT_DIR$/Vue/vue-router/03-nestRouterDemo.html" />
-      <change beforePath="$PROJECT_DIR$/vue-router/04-eventMessage.html" afterPath="$PROJECT_DIR$/Vue/vue-router/04-eventMessage.html" />
-      <change beforePath="$PROJECT_DIR$/vue-router/05-shoppingCarDemo.html" afterPath="$PROJECT_DIR$/Vue/vue-router/05-shoppingCarDemo.html" />
-      <change beforePath="$PROJECT_DIR$/vue/01-vuePrimaryDemo.html" afterPath="$PROJECT_DIR$/Vue/vue/01-vuePrimaryDemo.html" />
-      <change beforePath="$PROJECT_DIR$/vue/02-vueBindDemo.html" afterPath="$PROJECT_DIR$/Vue/vue/02-vueBindDemo.html" />
-      <change beforePath="$PROJECT_DIR$/vue/03-vueV-htmlDemo.html" afterPath="$PROJECT_DIR$/Vue/vue/03-vueV-htmlDemo.html" />
-      <change beforePath="$PROJECT_DIR$/vue/04-vueBindCssObject.html" afterPath="$PROJECT_DIR$/Vue/vue/04-vueBindCssObject.html" />
-      <change beforePath="$PROJECT_DIR$/vue/05-vueComputed.html" afterPath="$PROJECT_DIR$/Vue/vue/05-vueComputed.html" />
-      <change beforePath="$PROJECT_DIR$/vue/06-vueV-model.html" afterPath="$PROJECT_DIR$/Vue/vue/06-vueV-model.html" />
-      <change beforePath="$PROJECT_DIR$/vue/07-vueV-if.html" afterPath="$PROJECT_DIR$/Vue/vue/07-vueV-if.html" />
-      <change beforePath="$PROJECT_DIR$/vue/08-vueV-forDemo.html" afterPath="$PROJECT_DIR$/Vue/vue/08-vueV-forDemo.html" />
-      <change beforePath="$PROJECT_DIR$/vue/09-vueV-forDemo2.html" afterPath="$PROJECT_DIR$/Vue/vue/09-vueV-forDemo2.html" />
-      <change beforePath="$PROJECT_DIR$/vue/10-vueV-forDemo3.html" afterPath="$PROJECT_DIR$/Vue/vue/10-vueV-forDemo3.html" />
-      <change beforePath="$PROJECT_DIR$/vue/11-vueV-forDemo4.html" afterPath="$PROJECT_DIR$/Vue/vue/11-vueV-forDemo4.html" />
-      <change beforePath="$PROJECT_DIR$/vue/12-vueV-onDemo.html" afterPath="$PROJECT_DIR$/Vue/vue/12-vueV-onDemo.html" />
-      <change beforePath="$PROJECT_DIR$/vue/13-vueV-onDemo2.html" afterPath="$PROJECT_DIR$/Vue/vue/13-vueV-onDemo2.html" />
-      <change beforePath="$PROJECT_DIR$/vue/14-vueWatchDemo.html" afterPath="$PROJECT_DIR$/Vue/vue/14-vueWatchDemo.html" />
-      <change beforePath="$PROJECT_DIR$/vue/15-vueLifeCycleDemo.html" afterPath="$PROJECT_DIR$/Vue/vue/15-vueLifeCycleDemo.html" />
-      <change beforePath="$PROJECT_DIR$/vue/16-vueV.extend.html" afterPath="$PROJECT_DIR$/Vue/vue/16-vueV.extend.html" />
-      <change beforePath="$PROJECT_DIR$/vue/17-vueWholeComponents.html" afterPath="$PROJECT_DIR$/Vue/vue/17-vueWholeComponents.html" />
-      <change beforePath="$PROJECT_DIR$/vue/18-vuePartComponent.html" afterPath="$PROJECT_DIR$/Vue/vue/18-vuePartComponent.html" />
-      <change beforePath="$PROJECT_DIR$/vue/19-vueSlotComponent.html" afterPath="$PROJECT_DIR$/Vue/vue/19-vueSlotComponent.html" />
-      <change beforePath="$PROJECT_DIR$/vue/20-vuePropsDemo.html" afterPath="$PROJECT_DIR$/Vue/vue/20-vuePropsDemo.html" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="everyDay.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -125,14 +24,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="04-eventMessage.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="04-eventMessage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Vue/vue-router/04-eventMessage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            <state relative-caret-position="120">
+              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
               <folding>
                 <element signature="e#525#1167#0" expanded="false" />
                 <element signature="e#1191#1514#0" expanded="false" />
+                <marker date="1515071080526" expanded="true" signature="558:786" ph="..." />
               </folding>
             </state>
           </provider>
@@ -164,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1898">
-              <caret line="239" column="4" lean-forward="false" selection-start-line="239" selection-start-column="4" selection-end-line="239" selection-end-column="4" />
+            <state relative-caret-position="568">
+              <caret line="247" column="4" lean-forward="false" selection-start-line="247" selection-start-column="4" selection-end-line="247" selection-end-column="4" />
               <folding>
                 <element signature="n#div#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#html#0;n#!!top" expanded="false" />
@@ -210,6 +110,8 @@
                 <element signature="n#div#37;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#38;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#39;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#40;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#41;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -304,10 +206,10 @@
     <handled-path value="$PROJECT_DIR$/Vue/vue-project/test/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-309" />
-    <option name="y" value="78" />
+    <option name="x" value="66" />
+    <option name="y" value="128" />
     <option name="width" value="1631" />
-    <option name="height" value="838" />
+    <option name="height" value="827" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -343,8 +245,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -507,14 +409,15 @@
       <workItem from="1515114551454" duration="1913000" />
       <workItem from="1515159591807" duration="105000" />
       <workItem from="1515159830132" duration="1080000" />
+      <workItem from="1515249380029" duration="1373000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179105000" />
+    <option name="totallyTimeSpent" value="180478000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-309" y="78" width="1631" height="838" extended-state="0" />
+    <frame x="66" y="128" width="1631" height="827" extended-state="0" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17263025" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -752,10 +655,44 @@
     <entry file="file://$PROJECT_DIR$/vue-project/test/src/main.js" />
     <entry file="file://$PROJECT_DIR$/vue-project/test/src/App.vue" />
     <entry file="file://$PROJECT_DIR$/vue-router/06.html" />
+    <entry file="file://$PROJECT_DIR$/Vue/vue-router/05-shoppingCarDemo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding>
+            <element signature="e#487#1285#0" expanded="false" />
+            <element signature="e#1328#2189#0" expanded="false" />
+            <element signature="e#2231#3390#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue/vue-router/03-nestRouterDemo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <marker date="1515060658989" expanded="true" signature="476:578" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue/vue-router/04-eventMessage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="e#525#1167#0" expanded="false" />
+            <element signature="e#1191#1514#0" expanded="false" />
+            <marker date="1515071080526" expanded="true" signature="558:786" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1898">
-          <caret line="239" column="4" lean-forward="false" selection-start-line="239" selection-start-column="4" selection-end-line="239" selection-end-column="4" />
+        <state relative-caret-position="568">
+          <caret line="247" column="4" lean-forward="false" selection-start-line="247" selection-start-column="4" selection-end-line="247" selection-end-column="4" />
           <folding>
             <element signature="n#div#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#html#0;n#!!top" expanded="false" />
@@ -797,39 +734,8 @@
             <element signature="n#div#37;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#38;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#39;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vue/vue-router/05-shoppingCarDemo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="e#487#1285#0" expanded="false" />
-            <element signature="e#1328#2189#0" expanded="false" />
-            <element signature="e#2231#3390#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vue/vue-router/03-nestRouterDemo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding>
-            <marker date="1515060658989" expanded="true" signature="476:578" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vue/vue-router/04-eventMessage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding>
-            <element signature="e#525#1167#0" expanded="false" />
-            <element signature="e#1191#1514#0" expanded="false" />
+            <element signature="n#div#40;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#41;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
