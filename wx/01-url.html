@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    bindtap="goTodetail";
+    goTodetail:function(e){
+        var activity_id = e.currentTarget.dataset.activity_id; //活动id [data-id]
+        wx.navigateTo( {
+            url: 'detail/detail?activity_id=' + activity_id
+        });
+    }
+</script>
+</body>
+</html>
