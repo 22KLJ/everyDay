@@ -21,7 +21,8 @@ export default {
       menuList: [
         {name: 'Home', url: '/home'},
         {name: 'User', url: '/user'},
-        {name: 'Hello', url: '/hello'}
+        {name: 'Hello', url: '/hello'},
+        {name: 'Count', url: '/count'}
       ]
     }
   }
@@ -35,7 +36,7 @@ export default {
   }
   li{
     float: left;
-    width: 33.3%;
+    width: 25%;
   }
   .show{
     text-align: center;

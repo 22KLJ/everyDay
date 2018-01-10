@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Hello from '@/components/Hello'
 import Home from '@/components/Home'
 import User from '@/components/User'
+import Count from '@/components/Count'
 
 Vue.use(Router)
 
@@ -27,6 +28,11 @@ export default new Router({
       path: '/user',
       name: 'user',
       component: User
+    },
+    {
+      path: '/count',
+      name: 'count',
+      component: Count
     }
   ]
 })
