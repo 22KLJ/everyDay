@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="764c4d75-58ee-4e81-8f4e-65d25d71ccc6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="everyDay.iws" />
@@ -28,7 +27,7 @@
       <file leaf-file-name="store.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Vue/vue-project/test/vuex/store.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
+            <state relative-caret-position="364">
               <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
@@ -41,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/project/text-overflow.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="208">
-              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+              <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -50,8 +49,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="261" column="6" lean-forward="true" selection-start-line="261" selection-start-column="6" selection-end-line="261" selection-end-column="6" />
+            <state relative-caret-position="538">
+              <caret line="271" column="4" lean-forward="false" selection-start-line="271" selection-start-column="4" selection-end-line="271" selection-end-column="4" />
               <folding>
                 <element signature="n#div#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#html#0;n#!!top" expanded="false" />
@@ -100,6 +99,7 @@
                 <element signature="n#div#44;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#45;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#46;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#47;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -419,11 +419,12 @@
       <workItem from="1515481327837" duration="1266000" />
       <workItem from="1515544130998" duration="4167000" />
       <workItem from="1515659634692" duration="1326000" />
+      <workItem from="1515766478235" duration="109000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="188717000" />
+    <option name="totallyTimeSpent" value="188826000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="136" y="154" width="1619" height="827" extended-state="0" />
@@ -698,7 +699,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Vue/vue-project/test/vuex/store.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
+        <state relative-caret-position="364">
           <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
@@ -709,15 +710,15 @@
     <entry file="file://$PROJECT_DIR$/project/text-overflow.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
-          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="261" column="6" lean-forward="true" selection-start-line="261" selection-start-column="6" selection-end-line="261" selection-end-column="6" />
+        <state relative-caret-position="538">
+          <caret line="271" column="4" lean-forward="false" selection-start-line="271" selection-start-column="4" selection-end-line="271" selection-end-column="4" />
           <folding>
             <element signature="n#div#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#html#0;n#!!top" expanded="false" />
@@ -766,6 +767,7 @@
             <element signature="n#div#44;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#45;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#46;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#47;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
