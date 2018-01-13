@@ -49,8 +49,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="271" column="4" lean-forward="false" selection-start-line="271" selection-start-column="4" selection-end-line="271" selection-end-column="4" />
+            <state relative-caret-position="546">
+              <caret line="275" column="4" lean-forward="false" selection-start-line="275" selection-start-column="4" selection-end-line="275" selection-end-column="4" />
               <folding>
                 <element signature="n#div#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#html#0;n#!!top" expanded="false" />
@@ -100,6 +100,7 @@
                 <element signature="n#div#45;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#46;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#47;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#48;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -245,6 +246,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -261,7 +263,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -420,11 +421,12 @@
       <workItem from="1515544130998" duration="4167000" />
       <workItem from="1515659634692" duration="1326000" />
       <workItem from="1515766478235" duration="109000" />
+      <workItem from="1515847746073" duration="73000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="188826000" />
+    <option name="totallyTimeSpent" value="188899000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="136" y="154" width="1619" height="827" extended-state="0" />
@@ -717,8 +719,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="271" column="4" lean-forward="false" selection-start-line="271" selection-start-column="4" selection-end-line="271" selection-end-column="4" />
+        <state relative-caret-position="546">
+          <caret line="275" column="4" lean-forward="false" selection-start-line="275" selection-start-column="4" selection-end-line="275" selection-end-column="4" />
           <folding>
             <element signature="n#div#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#html#0;n#!!top" expanded="false" />
@@ -768,6 +770,7 @@
             <element signature="n#div#45;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#46;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#47;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#48;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
