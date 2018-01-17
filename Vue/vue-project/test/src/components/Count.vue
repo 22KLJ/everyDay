@@ -10,7 +10,7 @@
 
 <script>
     import store from '../../vuex/store'
-    import {mapState} from 'vuex'
+    import {mapState, mapMutations, mapGetters} from 'vuex'
     export default {
       name: 'count',
       data () {
@@ -19,10 +19,14 @@
         }
       },
       store,
-      computed: mapState(['count']),
+      computed: {
+        ...mapState(['count']),
+        ...mapGetters(['count'])
+      },
       created () {
         console.log(this.$store.state)
-      }
+      },
+      methods: mapMutations(['add', 'reduce'])
     }
 </script>
 
