@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="764c4d75-58ee-4e81-8f4e-65d25d71ccc6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Vue/vue-project/test/src/components/Count.vue" afterPath="$PROJECT_DIR$/Vue/vue-project/test/src/components/Count.vue" />
-      <change beforePath="$PROJECT_DIR$/Vue/vue-project/test/vuex/store.js" afterPath="$PROJECT_DIR$/Vue/vue-project/test/vuex/store.js" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="everyDay.iws" />
@@ -42,8 +39,8 @@
       <file leaf-file-name="Count.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Vue/vue-project/test/src/components/Count.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+            <state relative-caret-position="598">
+              <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
               <folding>
                 <element signature="e#230#266#0" expanded="true" />
               </folding>
@@ -54,8 +51,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="565">
-              <caret line="291" column="4" lean-forward="false" selection-start-line="291" selection-start-column="4" selection-end-line="291" selection-end-column="4" />
+            <state relative-caret-position="542">
+              <caret line="295" column="4" lean-forward="false" selection-start-line="295" selection-start-column="4" selection-end-line="295" selection-end-column="4" />
               <folding>
                 <element signature="n#div#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#html#0;n#!!top" expanded="false" />
@@ -110,6 +107,7 @@
                 <element signature="n#div#50;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#51;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#52;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#53;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -244,8 +242,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -262,6 +258,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -425,11 +423,12 @@
       <workItem from="1516019407739" duration="2208000" />
       <workItem from="1516108620336" duration="832000" />
       <workItem from="1516196703656" duration="737000" />
+      <workItem from="1516287021714" duration="69000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192747000" />
+    <option name="totallyTimeSpent" value="192816000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="161" y="74" width="1619" height="827" extended-state="0" />
@@ -713,8 +712,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Vue/vue-project/test/src/components/Count.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        <state relative-caret-position="598">
+          <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
           <folding>
             <element signature="e#230#266#0" expanded="true" />
           </folding>
@@ -723,8 +722,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="291" column="4" lean-forward="false" selection-start-line="291" selection-start-column="4" selection-end-line="291" selection-end-column="4" />
+        <state relative-caret-position="542">
+          <caret line="295" column="4" lean-forward="false" selection-start-line="295" selection-start-column="4" selection-end-line="295" selection-end-column="4" />
           <folding>
             <element signature="n#div#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#html#0;n#!!top" expanded="false" />
@@ -779,6 +778,7 @@
             <element signature="n#div#50;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#51;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#52;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#53;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
