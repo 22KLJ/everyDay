@@ -41,9 +41,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="598">
               <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-              <folding>
-                <element signature="e#230#266#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -51,8 +49,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="295" column="4" lean-forward="false" selection-start-line="295" selection-start-column="4" selection-end-line="295" selection-end-column="4" />
+            <state relative-caret-position="515">
+              <caret line="298" column="6" lean-forward="true" selection-start-line="298" selection-start-column="6" selection-end-line="298" selection-end-column="6" />
               <folding>
                 <element signature="n#div#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#html#0;n#!!top" expanded="false" />
@@ -108,6 +106,7 @@
                 <element signature="n#div#51;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#52;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#53;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#54;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -242,6 +241,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -258,8 +259,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -424,11 +423,12 @@
       <workItem from="1516108620336" duration="832000" />
       <workItem from="1516196703656" duration="737000" />
       <workItem from="1516287021714" duration="69000" />
+      <workItem from="1516371359765" duration="69000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192816000" />
+    <option name="totallyTimeSpent" value="192885000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="161" y="74" width="1619" height="827" extended-state="0" />
@@ -714,16 +714,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
           <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-          <folding>
-            <element signature="e#230#266#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="295" column="4" lean-forward="false" selection-start-line="295" selection-start-column="4" selection-end-line="295" selection-end-column="4" />
+        <state relative-caret-position="515">
+          <caret line="298" column="6" lean-forward="true" selection-start-line="298" selection-start-column="6" selection-end-line="298" selection-end-column="6" />
           <folding>
             <element signature="n#div#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#html#0;n#!!top" expanded="false" />
@@ -779,6 +777,7 @@
             <element signature="n#div#51;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#52;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#53;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#54;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
