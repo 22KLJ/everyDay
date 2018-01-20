@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input
+        cursor= '20'
+        class='input'
+        auto-focus
+        type='digit'
+        placeholder='最低提现{{lowest_withdraw_cash}}元'
+        bindinput="bindKeyInput"
+        value='{{inputValue}}' />
+<script>
+    // 双向绑定inputValue
+    bindKeyInput: function (e) {
+        const s = /^\d+(\.\d{0,2})?$/;
+        let ipt = e.detail.value;
+        if (ipt == '.' ){
+            ipt = '0.'
+        } else if (!s.test(ipt)){
+            ipt = ipt.substring(0,ipt.length-1)
+        }
+        this.setData({
+            inputValue: ipt
+        })
+    }
+    //  微信input 金额输入框
+    //  微信原生type=number 调数字键盘 处理只能输入一个小数点，小数点后只有两位
+    //  如果第一位是‘.’ 换为'0.' 判断是否符合正则 若不符合，切割掉最后一个字符
+</script>
+</body>
+</html>
