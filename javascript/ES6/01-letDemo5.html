@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>let作用域</title>
+</head>
+<body>
+<script>
+    // x值等于y，而此时y还没有声明，属于”死区“
+    function bar(x = y, y = 2) {
+        return [x, y];
+    }
+    bar();
+</script>
+</body>
+</html>

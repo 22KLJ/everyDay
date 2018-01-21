@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>let声明在for循环中</title>
+</head>
+<body>
+<script>
+    var a = [];
+    for (var i = 0; i < 10; i++) {
+        console.log('a',i);
+        a[i] = function () {
+            console.log(i);
+        }
+    }
+    console.log(a);
+    a[6]();// 为什么是10 不是9
+    let b = [];
+    for (let i = 0; i < 10; i++) {
+        console.log('b',i);
+        b[i] = function () {
+            console.log(i);
+        }
+    }
+    console.log(b);
+    b[6]();
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>let存在暂时性死区</title>
+</head>
+<body>
+<script>
+    typeof d;
+    let d;
+
+    var a = 1;
+    if (true) {
+        // 区块中存在let和const，这个区块就形成了封闭作用域。
+        // 凡是在声明之前就使用这些变量，就会报错。
+       console.log(a);
+       let a = 9;
+    }
+</script>
+</body>
+</html>
