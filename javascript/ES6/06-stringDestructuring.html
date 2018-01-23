@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>字符串的解构赋值</title>
+</head>
+<body>
+<script>
+    // 字符串解构赋值时，被转换成了一个类似数组的对象。
+    {
+        const [a, b, c, d] = '乾坤无极';
+        console.log(a);
+        console.log(b);
+        console.log(c);
+        console.log(d);
+    }
+    //  可以对length属性解构赋值。
+    {
+        let {length : len} = 'hello';
+        console.log(len)
+    }
+    // 交换变量的值
+    var a = 1;
+    var n = 2;
+    var c = a;
+    a = n ;
+    n = c;
+    console.log(a);
+    console.log(n);
+    // 解构赋值方法
+    {
+        let x = 1;
+        let y = 2;
+        [x, y] = [y, x];
+        console.log(x);
+        console.log(y);
+    }
+</script>
+</body>
+</html>

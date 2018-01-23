@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>对象的解构赋值</title>
+</head>
+<body>
+<script>
+    // 对象的解构赋值
+    {
+        let {a, b, c} = {a: 1, b: 2, c: 3};
+        console.log(a);
+        console.log(b);
+        console.log(c);
+    }
+    // 对象的解构赋值可以不按顺序，属性名对应就行
+    {
+        let {a, b, c} = {a: 5, c: 8, b: 2};
+        console.log(a);
+        console.log(b);
+        console.log(c);
+    }
+    // 对象解构赋值需要属性名对应，找不到就返回undefined
+    {
+        let {a} = {b: 3};
+        console.log(a);// undefined
+    }
+    //  变量名与属性名不一致，可以写成下面这样
+    {
+        let {a: b} = {a: 5};
+        console.log(b);
+    }
+    // 对象解构赋值原理
+    {
+        let {a: a, b: b} = {a: 7, b: 8};
+        console.log(a);
+        console.log(b);
+    }
+    // 嵌套
+    {
+        let {a: {b}} = {a: {b: 1}};
+        console.log(b);
+    }
+    // 对象里面嵌套数组
+    {
+        let obj = {
+            p: [
+                'Hello',
+                { y: 'World' }
+            ]
+        };
+        let { p: [x, { y }] } = obj;
+        console.log(x);
+        console.log(y);
+    }
+    // 对数组进行对象属性的解构
+    {
+        let arr = [888, 2, 999];
+        let {0 : first, [arr.length - 1] : last} = arr;
+        console.log(first);
+        console.log(last);
+    }
+    // 指定默认值
+    {
+        let {a, b = 3} = {a: 1, b: undefined};
+        console.log(a);
+        console.log(b);
+    }
+</script>
+</body>
+</html>

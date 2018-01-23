@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="764c4d75-58ee-4e81-8f4e-65d25d71ccc6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/javascript/ES6/02-constDemo.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/javascript/ES6/02-constDemo2.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/javascript/ES6/03-windowDemo.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javascript/ES6/04-arrayDestructuring.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javascript/ES6/05-objectDestructuring.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javascript/ES6/06-stringDestructuring.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javascript/ES6/07-functionDestructuring.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="everyDay.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,38 +27,43 @@
     <favorites_list name="everyDay" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="04-arrayDestructuring.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascript/ES6/04-arrayDestructuring.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="955">
-              <caret line="312" column="4" lean-forward="false" selection-start-line="312" selection-start-column="4" selection-end-line="312" selection-end-column="4" />
-              <folding>
-                <element signature="n#div#34;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#35;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#36;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#37;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#38;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#39;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#40;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#41;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#42;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#43;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#44;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#45;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#46;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#47;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#48;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#49;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#50;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#51;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#52;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#53;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#54;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#55;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#56;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#57;n#html#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="1248">
+              <caret line="48" column="23" lean-forward="true" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="05-objectDestructuring.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascript/ES6/05-objectDestructuring.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="58" column="55" lean-forward="true" selection-start-line="58" selection-start-column="55" selection-end-line="58" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="06-stringDestructuring.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascript/ES6/06-stringDestructuring.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="07-functionDestructuring.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/javascript/ES6/07-functionDestructuring.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -82,10 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/美团日历/htmlData.html" />
-        <option value="$PROJECT_DIR$/vue/vueV-onDemo2.html" />
-        <option value="$PROJECT_DIR$/vue/vueComputed.html" />
-        <option value="$PROJECT_DIR$/vue/vueWatchDemo.html" />
         <option value="$PROJECT_DIR$/vue/vueLifeCycleDemo.html" />
         <option value="$PROJECT_DIR$/vue/16-vueV.extend.html" />
         <option value="$PROJECT_DIR$/vue/17-vueWholeComponents.html" />
@@ -133,6 +134,10 @@
         <option value="$PROJECT_DIR$/javascript/ES6/02-constDemo2.html" />
         <option value="$PROJECT_DIR$/javascript/ES6/03-windowDemo.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/javascript/ES6/04-arrayDestructuring.html" />
+        <option value="$PROJECT_DIR$/javascript/ES6/05-objectDestructuring.html" />
+        <option value="$PROJECT_DIR$/javascript/ES6/06-stringDestructuring.html" />
+        <option value="$PROJECT_DIR$/javascript/ES6/07-functionDestructuring.html" />
       </list>
     </option>
   </component>
@@ -153,8 +158,8 @@
     <handled-path value="$PROJECT_DIR$/Vue/vue-project/test/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="99" />
-    <option name="y" value="196" />
+    <option name="x" value="179" />
+    <option name="y" value="73" />
     <option name="width" value="1619" />
     <option name="height" value="827" />
   </component>
@@ -374,16 +379,17 @@
       <workItem from="1516449719248" duration="1064000" />
       <workItem from="1516517595650" duration="6093000" />
       <workItem from="1516623705185" duration="1082000" />
+      <workItem from="1516663842724" duration="11107000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="201124000" />
+    <option name="totallyTimeSpent" value="212231000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="99" y="196" width="1619" height="827" extended-state="0" />
+    <frame x="179" y="73" width="1619" height="827" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17394054" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17394054" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -440,22 +446,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/javascript/ES5/02-returnFalse.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vue/vue-router/02-dynamicRouterDemo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="44" column="7" lean-forward="true" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue-project/snow/.babelrc" />
-    <entry file="file://$PROJECT_DIR$/vue-project/snow/.editorconfig" />
     <entry file="file://$PROJECT_DIR$/vue-project/snow/.eslintignore" />
     <entry file="file://$PROJECT_DIR$/vue-project/snow/.eslintrc.js" />
     <entry file="file://$PROJECT_DIR$/vue-project/snow/.gitignore" />
@@ -683,7 +673,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -691,7 +680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -699,14 +687,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="955">
-          <caret line="312" column="4" lean-forward="false" selection-start-line="312" selection-start-column="4" selection-end-line="312" selection-end-column="4" />
+        <state relative-caret-position="487">
+          <caret line="314" column="6" lean-forward="true" selection-start-line="314" selection-start-column="6" selection-end-line="314" selection-end-column="6" />
           <folding>
             <element signature="n#div#34;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#35;n#html#0;n#!!top" expanded="false" />
@@ -733,6 +720,38 @@
             <element signature="n#div#56;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#57;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/ES6/04-arrayDestructuring.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1248">
+          <caret line="48" column="23" lean-forward="true" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/ES6/05-objectDestructuring.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="58" column="55" lean-forward="true" selection-start-line="58" selection-start-column="55" selection-end-line="58" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/ES6/06-stringDestructuring.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/ES6/07-functionDestructuring.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
