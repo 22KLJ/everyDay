@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>window对象</title>
+</head>
+<body>
+<div>
+    123
+</div>
+<script>
+    // var 声明可以 let声明不行
+    var age = 29;
+    function sayAge() {
+        alert(this.age)
+    }
+    alert(window.age);
+    sayAge();
+    window.sayAge();
+    window.color = "red";
+    console.log(window.color);
+    // 全局变量不能通过delete删除
+    delete window.age;
+    // window对象上定义的属性可以用delete删除
+    delete window.color;
+    console.log(window.color);
+    console.log(window);
+    // 将窗口向下移动
+    window.moveBy(0,500);
+    // 查询未声明的变量
+    var newValue = window.oldValue;// 不报错
+    var newValue = oldValue;// 报错
+
+</script>
+</body>
+</html>

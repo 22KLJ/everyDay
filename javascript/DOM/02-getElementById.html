@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>查找元素</title>
+</head>
+<body>
+<div id="id">
+    div
+</div>
+<span>1</span>
+<span>2</span>
+<span name="one">3</span>
+<script>
+    var div = document.getElementById("id");
+    var spans = document.getElementsByTagName("span");
+    console.log(div);
+    console.log(spans);
+    console.log(spans.length);
+    // namedItem("name")
+    var one = spans.namedItem("one");
+    console.log(one);
+    document.write('123');
+</script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>location对象</title>
+</head>
+<body>
+<script>
+    console.log(location);
+    // console.log(window.location);
+    // console.log(document.location); 三个输出一样
+    // 查询字符串参数
+    console.log(location.search.substring(1).split('&'));
+    // 查询字符串参数的函数
+    function getString() {
+        // substring(1) 去掉？
+        var qs = (location.search.length > 0 ? location.search.substring(1) : '');
+        // 定义存放参数的对象
+        var args = {};
+        // 字符串转化为数组
+        var items = qs.length ? qs.split('&') : [];
+        var item = null,
+            name = null,
+            value = null,
+            i = 0,
+            len = items.length;
+        for (i = 0; i < len; i++) {
+            item = items[i].split("=");
+            // decodeURIComponent 解码
+            name = decodeURIComponent(item[0]);
+            value = decodeURIComponent(item[1]);
+            if (name.length) {
+                args[name] = value;
+            }
+        }
+        return args;
+    }
+    console.log(getString());
+    var a = "http://www.baidu.com";
+    // window.location = a;
+    // location.href = a; 常用
+    // location.assign("http://www.baidu.com"); 三个输出一样
+</script>
+</body>
+</html>
