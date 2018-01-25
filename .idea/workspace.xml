@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="764c4d75-58ee-4e81-8f4e-65d25d71ccc6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/javascript/BOM/01-windowDemo.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/javascript/BOM/02-setTimeout.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/javascript/BOM/03-confirmDemo.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/javascript/BOM/04-locationDemo.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/javascript/BOM/05-navigatorDemo.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="everyDay.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,16 +24,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="05-objectDestructuring.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javascript/ES6/05-objectDestructuring.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1508">
-              <caret line="58" column="55" lean-forward="false" selection-start-line="58" selection-start-column="55" selection-end-line="58" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="06-stringDestructuring.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript/ES6/06-stringDestructuring.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -62,8 +47,8 @@
       <file leaf-file-name="04-locationDemo.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript/BOM/04-locationDemo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-86">
-              <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+            <state relative-caret-position="572">
+              <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -89,12 +74,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="02-getElementById.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="02-getElementById.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript/DOM/02-getElementById.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
+            <state relative-caret-position="408">
               <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="526">
+              <caret line="316" column="0" lean-forward="false" selection-start-line="316" selection-start-column="0" selection-end-line="316" selection-end-column="0" />
+              <folding>
+                <element signature="n#div#50;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#51;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#52;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#53;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#54;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#55;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#56;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#57;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,7 +106,7 @@
       <file leaf-file-name="07-functionDestructuring.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript/ES6/07-functionDestructuring.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
+            <state relative-caret-position="598">
               <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
               <folding />
             </state>
@@ -112,7 +116,7 @@
       <file leaf-file-name="01-windowDemo.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript/BOM/01-windowDemo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
+            <state relative-caret-position="728">
               <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
               <folding />
             </state>
@@ -187,7 +191,6 @@
         <option value="$PROJECT_DIR$/javascript/ES6/02-constDemo.html" />
         <option value="$PROJECT_DIR$/javascript/ES6/02-constDemo2.html" />
         <option value="$PROJECT_DIR$/javascript/ES6/03-windowDemo.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/javascript/ES6/04-arrayDestructuring.html" />
         <option value="$PROJECT_DIR$/javascript/ES6/05-objectDestructuring.html" />
         <option value="$PROJECT_DIR$/javascript/ES6/06-stringDestructuring.html" />
@@ -199,6 +202,7 @@
         <option value="$PROJECT_DIR$/javascript/BOM/05-navigatorDemo.html" />
         <option value="$PROJECT_DIR$/javascript/DOM/01-documentDemo.html" />
         <option value="$PROJECT_DIR$/javascript/DOM/02-getElementById.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -259,7 +263,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -282,6 +285,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -453,11 +457,12 @@
       <workItem from="1516623705185" duration="1082000" />
       <workItem from="1516663842724" duration="11107000" />
       <workItem from="1516760387729" duration="16158000" />
+      <workItem from="1516842271443" duration="734000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="228389000" />
+    <option name="totallyTimeSpent" value="229123000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="348" y="75" width="1182" height="827" extended-state="0" />
@@ -756,18 +761,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="314" column="6" lean-forward="true" selection-start-line="314" selection-start-column="6" selection-end-line="314" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javascript/ES6/04-arrayDestructuring.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1248">
           <caret line="48" column="23" lean-forward="false" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -781,7 +778,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javascript/ES6/07-functionDestructuring.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
+        <state relative-caret-position="598">
           <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
           <folding />
         </state>
@@ -789,7 +786,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javascript/BOM/01-windowDemo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
+        <state relative-caret-position="728">
           <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
           <folding />
         </state>
@@ -821,8 +818,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javascript/BOM/04-locationDemo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-86">
-          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        <state relative-caret-position="572">
+          <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -845,9 +842,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javascript/DOM/02-getElementById.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
+        <state relative-caret-position="408">
           <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="316" column="0" lean-forward="false" selection-start-line="316" selection-start-column="0" selection-end-line="316" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#50;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#51;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#52;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#53;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#54;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#55;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#56;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#57;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
