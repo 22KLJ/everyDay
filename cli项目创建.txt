@@ -1,0 +1,43 @@
+1. vue init webpack snow
+2.一路y
+3.cd snow
+4.cnpm install
+ 基本项目配置完成
+5.cnpm install axios              安装axios依赖包
+6.cnpm install mint-ui -S                   安装mint-ui组建库
+7.cnpm install vuex --save             安装vuex依赖包
+8.cnpm install weixin-js-sdk --save      安装微信官方js-jdk依赖包
+9.cnpm install less less-loader --save-dev 安装less依赖包
+
+今目标：lijian@1865805 lj@aijuba.com
+svn: li lj@aijuba.com
+爱聚吧h5 svn://123.57.65.93/web/aijuba/h5.aijuba
+乐点svn://123.57.65.93/snow_h5
+
+93服务器： root lzf@aipami.com
+	sh uptest.sh
+	m.aijuba/snow.h5
+	0
+爱聚吧APPID：
+wx3bd1fdbc0a838661
+包叔APPID:
+wx690cc1fada70ce33
+MySQL:123456
+
+
+
+D:\wamp\bin\apache\apache2.4.17\conf\extra /httpd-vhosts
+C:\Windows\System32\drivers\etc /hosts
+
+线上
+2.
+#        127.0.0.1       dev.le.huangwenwu.com
+1.
+#<VirtualHost *:80>
+    
+#   ServerAdmin dev.le.huangwenwu.com
+   
+#   DocumentRoot "D:/wamp/www/snow"
+    
+#   ServerName dev.le.huangwenwu.com
+#</VirtualHost>
