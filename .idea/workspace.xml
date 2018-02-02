@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="764c4d75-58ee-4e81-8f4e-65d25d71ccc6" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/html/border.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="everyDay.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,7 +45,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="549">
@@ -60,6 +60,16 @@
                 <element signature="n#div#56;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#57;n#html#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="border.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/border.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -164,8 +174,8 @@
     <handled-path value="$PROJECT_DIR$/Vue/vue-project/test/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="181" />
-    <option name="y" value="112" />
+    <option name="x" value="351" />
+    <option name="y" value="126" />
     <option name="width" value="1182" />
     <option name="height" value="827" />
   </component>
@@ -203,8 +213,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -215,22 +223,18 @@
             <path>
               <item name="everyDay" type="b2602c69:ProjectViewProjectNode" />
               <item name="everyDay" type="462c0819:PsiDirectoryNode" />
-              <item name="javascript" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="everyDay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="everyDay" type="462c0819:PsiDirectoryNode" />
-              <item name="javascript" type="462c0819:PsiDirectoryNode" />
-              <item name="DOM" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/work/github/fDatepicker-Ex.js-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -240,18 +244,19 @@
     <property name="nodejs_interpreter_path" value="E:/node" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\myTest\everyDay\vue-router" />
-      <recent name="E:\myTest\everyDay\javascript" />
-      <recent name="E:\myTest\everyDay\vue" />
-      <recent name="E:\myTest\everyDay\img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\myTest\everyDay\javascript\ES5" />
       <recent name="E:\myTest\everyDay\Vue1" />
       <recent name="E:\myTest\everyDay\vue" />
       <recent name="E:\myTest\everyDay\project" />
       <recent name="E:\myTest\everyDay\12-4" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\myTest\everyDay\html" />
+      <recent name="E:\myTest\everyDay\vue-router" />
+      <recent name="E:\myTest\everyDay\javascript" />
+      <recent name="E:\myTest\everyDay\vue" />
+      <recent name="E:\myTest\everyDay\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -403,14 +408,16 @@
       <workItem from="1517222521028" duration="1507000" />
       <workItem from="1517276021244" duration="1870000" />
       <workItem from="1517353949313" duration="611000" />
+      <workItem from="1517532373218" duration="21000" />
+      <workItem from="1517578067419" duration="51000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="233725000" />
+    <option name="totallyTimeSpent" value="233797000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="181" y="112" width="1182" height="827" extended-state="0" />
+    <frame x="351" y="126" width="1182" height="827" extended-state="0" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24038461" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -469,7 +476,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vue-project/test/src/router/index.js" />
     <entry file="file://$PROJECT_DIR$/vue-project/test/src/main.js" />
     <entry file="file://$PROJECT_DIR$/vue-project/test/src/App.vue" />
     <entry file="file://$PROJECT_DIR$/vue-router/06.html" />
@@ -767,13 +773,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/WeChat Files/wxid_t72q2vew7rsb21/Files/money_get - 副本/money_get - 副本/preview/preview.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Documents/WeChat Files/wxid_t72q2vew7rsb21/Files/money_get - 副本/money_get - 副本/preview/preview.js" />
     <entry file="file://$PROJECT_DIR$/javascript/DOM/01-documentDemo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -812,6 +812,14 @@
             <element signature="n#div#56;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#57;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/border.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
