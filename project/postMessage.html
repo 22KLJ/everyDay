@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>发布资讯</title>
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <link rel="stylesheet" href="../css/jquery.range.css">
+    <!--// 图片上传插件-->
+    <link href="../css/IMGUP.css" rel="stylesheet" />
+    <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+    <script src="http://www.jq22.com/jquery/jquery-migrate-1.2.1.min.js"></script>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 1rem;
+            box-sizing: border-box;
+            color: #333333;
+            font-family:"微软雅黑";
+        }
+        html{
+            font-size: 16px;
+            background-color: #F2F2F2;
+        }
+        /*头部*/
+        .headers{
+            width: 100%;
+            height: 20rem;
+            background: url('http://39.106.32.222:8080/1cfae287-504f-4f80-87f9-9cfd50c34473.jpg') no-repeat;
+            background-size: 100% 100%;
+        }
+        .head {
+            width: 100%;
+            height: 4rem;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: transparent;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            padding: 0 10%;
+            background: rgba(33,33,33,0.1);
+        }
+        .head .logo {
+            font-size: 1.5rem;
+            color: #afb6bd;
+            cursor: pointer;
+        }
+        .head .right span {
+            margin: 0 0.6rem;
+            color: #afb6bd;
+            font-size: 0.9rem;
+        }
+        .head .right span:hover {
+            cursor: pointer;
+        }
+        .head .right span.active{
+            color: white;
+            font-size: 1.1rem;
+        }
+
+        .wrap {
+            width: 900px;
+            margin: 20px auto;
+            position: relative;
+            height: auto;
+            overflow: hidden;
+        }
+        select::-ms-expand { display: none; }
+        select{
+            padding: 4px;
+            border: 1px solid #999;
+            width: 6rem;
+            border-radius: 3px;
+        }
+
+        textarea {
+            resize: none;
+        }
+        /*表单*/
+        .formMenu{
+            margin: 15px 0;
+            border: 1px solid #999;
+            border-radius: 10px;
+            background-color: white;
+        }
+        .formMenu .formList{
+            display: flex;
+            justify-content: space-around;
+        }
+        .formMenu .formList>*{
+            flex: 1;
+        }
+        .formMenu .formList .list{
+            display: flex;
+            margin-bottom: 15px;
+        }
+        .formMenu .formList .list label{
+            width: 6rem;
+            text-align: right;
+        }
+        .formMenu .formList .list select{
+            flex: 1;
+        }
+        .formMenu .formList .list #carPrice{
+            padding: 4px;
+            border: 1px solid #999;
+            border-radius: 3px;
+            flex: 1;
+        }
+        .formMenu .formText{
+            width: 100%;
+        }
+        .formText label{
+            display: block;
+            width: 6rem;
+            text-align: right;
+        }
+        .dWrap{
+            margin-left: 3rem;
+        }
+        .formText #describe{
+            width: 100%;
+            height: 150px;
+            resize: none;
+            border: 1px solid #999;
+            border-radius: 5px;
+        }
+
+        .imgTitle{
+            margin: 10px 0;
+        }
+        /* 表头 */
+        .form-header {
+            font-size: 18px;
+            font-weight: 800;
+            border-bottom: 1px solid #ccc;
+            padding: 10px 20px;
+        }
+        .form-main{
+            padding: 20px 0 ;
+        }
+        .form-mainArtcle{
+            padding: 20px 0 40px 0;
+        }
+        .form-mainAd{
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: row;
+        }
+        .main-img{
+            display: flex;
+            flex: 1;
+            flex-direction: row;
+            align-items: center;
+        }
+        .form-mainAd img{
+            margin: 0 auto;
+        }
+        .main-top,.main-bottom{
+            display: flex;
+            flex-direction: row;
+            padding: 5px 200px;
+            height: 40px;
+            line-height: 40px;
+        }
+        .mainArtcle-top,.mainArtcle-bottom{
+            display: flex;
+            flex-direction: row;
+            padding: 5px 200px;
+            height: 40px;
+            line-height: 40px;
+        }
+        .main-bottom{
+            margin-top:10px;
+            height: 80px;
+            line-height:20px;
+        }
+        .mainArtcle-bottom{
+            height: 300px;
+        }
+        .main-button{
+            text-align: center
+        }
+        .main-input input{
+            height: 30px;
+            border: 1px solid #ccc;
+            padding: 0 10px;
+        }
+        .main-button button{
+            padding: 2px 25px;
+            border: 1px solid #ccc;
+            border-radius: 15px;
+            color: white;
+            background-color: green;
+            outline: none;
+        }
+        .main-input textarea{
+            padding: 5px 10px;
+            border: 1px solid #ccc;
+         }
+        .mainArtcle-bottom textarea{
+            padding: 5px 10px;
+            border: 1px solid #ccc;
+        }
+        .main-lable{
+            display: flex;
+            font-weight: 600;
+            padding-right: 10px;
+        }
+        .mainArtcle-top{
+            font-weight: 600;
+        }
+        .main-inputAdd{
+            width: 180px;
+            border: 1px solid #999;
+        }
+        .add{
+            height:100%;
+            line-height:100%;
+            font-size: 60px;
+            text-align: center;
+            color: #999;
+        }
+        .motai .content{
+            width: 60%;
+            height: 600px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            background-color: white;
+            border-radius: 15px;
+        }
+        @media screen and (max-width:1200px){
+            html{
+                font-size: 14px;
+            }
+            .wrap{
+                width: 90%;
+            }
+        }
+        @media screen and (max-width:620px){
+            html{
+                font-size: 10px;
+            }
+            .wrap{
+                width: 90%;
+            }
+            #div_imgfile{
+                width: 90px;
+                height: 90px;
+            }
+            .lookimg{
+                width: 90px;
+                height: 90px;
+            }
+            .formMenu{
+                padding: 15px 15px 15px 0px;
+            }
+        }
+        @media screen and (max-width:340px) {
+            .wrap{
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+<body>
+<div id="app" v-cloak>
+    <div class="headers">
+        <div class="head">
+                <span class="logo" @click="openwin('home')">
+                    北京中关村4s店
+                </span>
+            <div class="right">
+                <span  @click="openwin('home')">4s店信息</span>
+                <span @click="openwin('checkCar')" class="active">历史车辆销售</span>
+                <span @click="openwin('app')">咨询中心</span>
+            </div>
+        </div>
+    </div>
+    <div class="wrap">
+        <!--文章发布-->
+        <div class="formMenu">
+            <div class="form-header">文章发布</div>
+            <div class="form-main">
+                <div class="main-top">
+                    <div class="main-lable">请输入文章标题</div>
+                    <div class="main-input">
+                        <input type="text" placeholder="请输入标题" v-model='title'>
+                    </div>
+                </div>
+                <div class="main-bottom">
+                    <div class="main-lable">请输入文章简介</div>
+                    <div class="main-input">
+                        <textarea placeholder="请输入文章的简介" rows="3" v-model='intro'></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--正文内容-->
+        <div class="formMenu">
+            <div class="form-header">正文内容</div>
+            <div class="form-mainArtcle">
+                <div class="mainArtcle-top">请编辑正文内容</div>
+                <div class="mainArtcle-bottom">
+                    <textarea placeholder="请输入文章的内容" rows="15" cols="80" v-model='content'></textarea>
+                </div>
+            </div>
+        </div>
+        <!--文章素材-->
+        <div class="formMenu">
+            <div class="form-header">文章素材</div>
+            <div class="form-main">
+                <div class="main-top">
+                    <div class="main-lable" style="padding-right: 32px;">请输入作者笔名</div>
+                    <div class="main-input">
+                        <input type="text" placeholder="请输入内容">
+                    </div>
+                </div>
+                <div class="main-bottom">
+                    <div class="main-lable">请上传文章Banner</div>
+                    <div class="main-inputAdd">
+                        <div class="add">+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--车辆广告-->
+        <div class="formMenu">
+            <div class="form-header">车辆广告</div>
+            <div class="form-mainAd">
+                <div class="main-img" productids>
+                    <img src="../image/xmln.png" alt="">
+                </div>
+                <div class="main-img">
+                    <img src="../image/xmln.png" alt="">
+                </div>
+                <div class="main-img">
+                    <img src="../image/xmln.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="main-button" style="text-align: center">
+            <button @click='submit'>发布</button>
+        </div>
+    </div>
+</div>
+<!--正常引入-->
+<script type="text/javascript" src="../js/config.js"></script>
+<script type="text/javascript" src="../js/newapp.js"></script>
+<script type="text/javascript" src="../js/vue.js"></script>
+<!--<script type="text/javascript" src="../js/jquery.min.js"></script>-->
+<script type="text/javascript" src="../js/jquery.range-min.js"></script>
+<!--&lt;!&ndash;多图上传引入&ndash;&gt;-->
+<!--<script src="../js/imgDup.js"></script>-->
+<script type="text/javascript">
+    var vm = new Vue({
+        el: '#app',
+        data: {
+            title:'',
+            intro:'',
+            content:'',
+            productids: '111,222,333',
+            bannerFile: ''
+        },
+        methods: {
+            init: function () {
+                // var that = this;
+                // // 品牌
+                // $config.config.config.isnewd = true;
+                // h.ajax(function (ret, err) {
+                //     if (ret.code == "0") {
+                //         that.headsx.data.brand = ret.data;
+                //         $config.config.config.isnewd = false;
+                //     }
+                // }, "", "post", {
+                //     url: "http://127.0.0.1:8080/provider/getparamandbrand"
+                // })
+            },
+            submit: function () {
+                console.log('我点了提交');
+                console.log(this.title,this.intro,this.content);
+
+                 $.ajax({
+                        url : "http://127.0.0.1:8080/prodvider/saveEvaluate",
+                        type : "POST",
+                        contentType: "application/json;charset=utf-8",
+                        data : JSON.stringify({title:this.title,intro:this.intro,content:this.content,productions:this.productids,bannerFile:this.bannerFile}),
+                        dataType : "text",
+                        success : function(result) {
+                            console.log(result)
+                            if (result == "success") {
+                                obj.parents('form').submit();
+                            } else {
+                            }
+                        },
+                        error:function(msg){
+                        }
+                })
+
+            }
+        }
+      });
+    h.ready();
+</script>
+</body>
+</html>
