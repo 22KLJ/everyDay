@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>url传参</title>
+</head>
+<body>
+<input type="text" name="username" >
+
+<input type="submit" id="sumbit">
+<script>
+    let input = document.getElementsByTagName('input')[0];
+    let sumbit = document.getElementsByTagName('input')[1];
+    sumbit.onclick=function () {
+        console.log(input.value)
+        window.location.href='./urlRequest.html?value='+input.value;
+    }
+</script>
+</body>
+</html>

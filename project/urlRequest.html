@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>url接收参数</title>
+</head>
+<body>
+<script>
+    let name = window.location.href.split('?')[1];// 按问号切割取url后面的
+    let a = name.split('=');// 按等号切割取后面的
+    let str = decodeURI(a[1]);//解码
+    document.write(str);
+</script>
+</body>
+</html>
