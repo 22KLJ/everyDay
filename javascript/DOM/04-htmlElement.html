@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>html类型Element</title>
+</head>
+<body>
+    <div id="myDiv" class="bg" title="这是一个div" lang="en" dir="ltr" data-aid="1">123</div>
+    <script>
+        let div = document.getElementById('myDiv');
+        console.log(div.id);
+        console.log(div.className);
+        console.log(div.title);
+        console.log(div.lang);
+        console.log(div.dir);
+        div.id = 'toDiv';// 可以修改
+        div.className = 'gb';// 可以修改
+        div.title = '我不是一个 toDiv';// 可以修改
+        div.lang = 'fr';// 可以修改
+        div.dir = 'rtl';// 可以修改
+        // getAttribute 取得特性
+        console.log(div.getAttribute('id'));
+        console.log(div.getAttribute('class'));
+        console.log(div.getAttribute('title'));
+        console.log(div.getAttribute('lang'));
+        console.log(div.getAttribute('dir'));
+        console.log(div.getAttribute('data-aid'));
+        // setAttribute 设置特性
+        div.setAttribute('id','tooDiv');
+        div.setAttribute('class','tb');
+        div.setAttribute('title','我是设置特性');
+        div.setAttribute('lang','en');
+        div.setAttribute('dir','ltr');
+        div.setAttribute('data-aid','2');
+        div.setAttribute('data-oid','5');
+        // removeAttribute删除特性
+        div.removeAttribute('class');
+    </script>
+</body>
+</html>

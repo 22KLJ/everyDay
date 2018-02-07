@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>canvas绘图</title>
+</head>
+<body>
+<canvas id="drawing" width="200" height="200" >canvas</canvas>
+<script>
+    let draw = document.getElementById('drawing');
+    if (draw.getContext) {
+        let context = draw.getContext('2d');
+        context.clearRect(0,0,200,200);
+        context.strokeStyle = 'red';
+        context.fillStyle = '#f2f2f2';
+        context.fillRect(10,10,130,130);
+        let path = new Path2D();
+        path.arc(75,75,50,0,Math.PI*2,true);
+
+    }
+</script>
+</body>
+</html>

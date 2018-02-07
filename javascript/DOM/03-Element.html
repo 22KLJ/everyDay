@@ -5,8 +5,13 @@
     <title>Element</title>
 </head>
 <body>
+<div id="myDiv"></div>
 <script>
     console.log(document.element)
+    let myDiv = document.getElementById('myDiv');
+    console.log(myDiv.tagName);
+    console.log(myDiv.tagName == myDiv.nodeName);
+    console.log(myDiv.tagName.toLocaleLowerCase() == 'div');
 </script>
 </body>
 </html>
