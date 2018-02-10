@@ -192,10 +192,10 @@
     <handled-path value="$PROJECT_DIR$/Vue/vue-project/test/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="457" />
-    <option name="y" value="68" />
-    <option name="width" value="1182" />
-    <option name="height" value="827" />
+    <option name="x" value="287" />
+    <option name="y" value="39" />
+    <option name="width" value="1589" />
+    <option name="height" value="958" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -232,7 +232,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -254,10 +253,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/wx-ui/htdocs/htdocs" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/htdocs" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -437,11 +437,12 @@
       <workItem from="1517966346619" duration="17351000" />
       <workItem from="1518052886671" duration="6002000" />
       <workItem from="1518138450307" duration="597000" />
+      <workItem from="1518226857102" duration="763000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="268817000" />
+    <option name="totallyTimeSpent" value="269580000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
