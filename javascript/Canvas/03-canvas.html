@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>绘制矩形</title>
+</head>
+<body>
+    <canvas id="draw" width="300" height="300"></canvas>
+    <script>
+        let draw = document.getElementById('draw')
+        if (draw.getContext) {
+            let ctx = draw.getContext('2d')
+
+            //黑色填充矩形
+            ctx.fillRect(20,20,200,200)
+            //清除矩形区域，完全透明
+            ctx.clearRect(50,50,130,130)
+            // 矩形边框
+            ctx.strokeRect(100,100,50,50)
+        }
+    </script>
+</body>
+</html>

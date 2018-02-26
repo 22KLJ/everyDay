@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>绘制笑脸</title>
+</head>
+<body>
+<canvas id="draw" width="300" height="300"></canvas>
+<script>
+    let draw = document.getElementById('draw')
+    if (draw.getContext) {
+        let ctx = draw.getContext('2d')
+
+        ctx.beginPath()
+        //画圆 (脸)
+        ctx.arc(150,150,100,0,Math.PI*2,true)
+        //画圆 (口)
+        ctx.moveTo(210,160)
+        ctx.arc(150,160,60,0,Math.PI,false)
+        //画圆 (左眼)
+        ctx.moveTo(135,130)
+        ctx.arc(125,130,10,0,Math.PI*2,true)
+        //画圆 (右眼)
+        ctx.moveTo(185,130)
+        ctx.arc(175,130,10,0,Math.PI*2,true)
+        // 绘制边框
+        ctx.stroke()
+    }
+</script>
+</body>
+</html>
