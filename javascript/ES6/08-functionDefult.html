@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>函数参数的默认值</title>
+</head>
+<body>
+<script>
+    //es5 不支持默认值
+    function log(x,y) {
+        y = y || 'world'
+        console.log(x,y)
+    }
+    log('hello')
+    log('hello','lj')
+    log('hello','')
+    //es6 支持直接加默认值
+    function log1(x, y = 'world') {
+        console.log(x, y)
+    }
+    log1('hello')
+    log1('hello','wl')
+    log1('hello','')
+    // 参数默认值每次都重新计算
+    let n = 99
+    function log3(p = n + 1) {
+        console.log(p)
+    }
+    log3()
+    n = 200
+    log3()
+    //与解构赋值结合使用
+    function foo({x, y = 5 }) {
+        console.log(x,y)
+    }
+    foo({})
+    foo({x: 1})
+    foo({x: 1, y: 2})
+</script>
+</body>
+</html>

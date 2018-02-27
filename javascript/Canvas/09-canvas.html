@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Path2D对象</title>
+</head>
+<body>
+<canvas id="draw" width="300" height="300"></canvas>
+<script>
+    let draw = document.getElementById('draw')
+    if (draw.getContext) {
+        let ctx = draw.getContext('2d')
+
+        let rect = new Path2D()
+        rect.rect(10,10,100,100)
+
+        let circle = new Path2D()
+        circle.moveTo(160,160)
+        circle.arc(200,60,50,0,Math.PI*2,true)
+
+        ctx.fill(circle)
+        ctx.stroke(rect)
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>rest参数</title>
+</head>
+<body>
+<script>
+    //rest 参数搭配的变量是一个数组
+    function add(...values) {
+        let sum = 0
+        for (let val of values) {
+            sum += val
+        }
+        console.log(sum)
+    }
+    add(1,2,9)
+    console.log(add.name)
+    const f = function add() {
+
+    }
+    console.log(f.name)
+</script>
+</body>
+</html>

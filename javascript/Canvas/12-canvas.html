@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>绘制文本</title>
+</head>
+<body>
+<canvas id="draw" width="300" height="300"></canvas>
+<script>
+    let draw = document.getElementById('draw')
+    if (draw.getContext) {
+        let ctx = draw.getContext('2d')
+
+        ctx.strokeRect(0,0,300,300)
+
+        ctx.font = "48px serif"
+        ctx.textAlign = 'center'
+        // 填充文字
+        ctx.fillText('Hello Canvas',150,50)
+        // 描边文字
+        ctx.strokeText('Canvas Hello',150,100)
+    }
+</script>
+</body>
+</html>
