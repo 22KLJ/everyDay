@@ -6,7 +6,29 @@
 </head>
 <body>
 <script>
-
+    let a = x => x*x
+    let b = a(5)
+    console.log(b)
+    let o = (x, y) => {
+        if (x > 0) {
+            return x+y
+        } else {
+            return y-x
+        }
+    }
+    let n = o(5,6)
+    console.log(n)
+    let m = o(-5,7)
+    console.log(m)
+    let w =(x, y, ...rest) => {
+        let i, sum = x + y
+        for (i = 0; i < rest.length; i++) {
+            sum += rest[i]
+        }
+        return sum
+    }
+    let d = w(1,5,9,6,2,5,4,7,1)
+    console.log(d)
 </script>
 </body>
 </html>
