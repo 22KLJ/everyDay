@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>从一个字符串中，切割一个字符串，再输入</title>
+</head>
+<body>
+<script>
+    let url = 'http://mrh.rfinfo.com.cn/th5shopqr/?from=sing#/?shopidentity=1';
+    console.log(url.search('from=sing'));
+    if (url.search('from=sing') !== '-1') {
+        let link = url.split('?');
+        console.log(link);
+        let real_link = link[0]+'#/?'+link[2];
+        console.log(real_link);
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>url解码与编码</title>
+</head>
+<body>
+<script>
+    let url = 'http://dev.mrhmr.com/h5shopqr/#/';
+    console.log(url);
+    let encode_url = encodeURIComponent(url);
+    console.log(encode_url);
+    let real_url = unescape(encode_url);
+    console.log(real_url);
+</script>
+</body>
+</html>
