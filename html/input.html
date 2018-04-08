@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>限制输入框字数</title>
+    <style>
+        div {
+            margin: 100px auto;
+            padding: 0 200px;
+        }
+        input {
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <input type="text" maxlength="5" /> <br/>
+    <input type="number" maxlength="5" /> <br/>
+    <input type="number" maxlength="5" oninput="if(value.length>5)value=value.slice(0,5)"/> <br/>
+    <textarea  maxlength="5" ></textarea>
+</div>
+</body>
+</html>
