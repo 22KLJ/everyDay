@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>生成可查询table</title>
+    <link rel="stylesheet" href="jqgrid/css/ui.jqgrid.css" />
+    <script type="text/javascript" src="jqgrid/js/jquery.jqGrid.src.js"></script>
+
+    <script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js"></script>
+</head>
+<body>
+    <div id="opt">
+        <div id="query">
+            <label>编号：</label><input type="text" class="input" id="sn" />
+            <label>名称：</label><input type="text" class="input" id="title" />
+            <input type="submit" class="btn" id="find_btn" value="查 询" />
+        </div>
+        <input type="button" class="btn" id="add_btn" value="新 增" />
+        <input type="button" class="btn" id="del_btn" value="删 除" />
+    </div>
+    <table id="list"></table>
+    <div id="pager"></div>
+<script>
+    $("#list").jqGrid({
+        url:'do.php?action=list',  //请求数据的url地址
+        datatype: "json",  //请求的数据类型
+        colNames:['编号','名称','主屏尺寸','操作系统','电池容量', '价格(￥)','操作'], //数据列名称（数组）
+        colModel:[ //数据列各参数信息设置
+            {name:'sn',index:'sn', editable:true, width:80,align:'center', title:false},
+            {name:'title',index:'title', width:180, title:false},
+            {name:'size',index:'size', width:120},
+            {name:'os',index:'os', width:120},
+            {name:'charge',index:'charge', width:100,align:'center'},
+            {name:'price',index:'price', width:80,align:'center'},
+            {name:'opt',index:'opt', width:80, sortable:false, align:'center'}
+        ],
+        rowNum:10, //每页显示记录数
+        rowList:[10,20,30], //分页选项，可以下拉选择每页显示记录数
+        pager: '#pager',  //表格数据关联的分页条，html元素
+        autowidth: true, //自动匹配宽度
+        height:275,   //设置高度
+        gridview:true, //加速显示
+        viewrecords: true,  //显示总记录数
+        multiselect: true,  //可多选，出现多选框
+        multiselectWidth: 25, //设置多选列宽度
+        sortable:true,  //可以排序
+        sortname: 'id',  //排序字段名
+        sortorder: "desc", //排序方式：倒序，本例中设置默认按id倒序排序
+        loadComplete:function(data){ //完成服务器请求后，回调函数
+            if(data.records==0){ //如果没有记录返回，追加提示信息，删除按钮不可用
+                $("p").appendTo($("#list")).addClass("nodata").html('找不到相关数据！');
+                $("#del_btn").attr("disabled",true);
+            }else{ //否则，删除提示，删除按钮可用
+                $("p.nodata").remove();
+                $("#del_btn").removeAttr("disabled");
+            }
+        }
+    });
+</script>
+</body>
+</html>
