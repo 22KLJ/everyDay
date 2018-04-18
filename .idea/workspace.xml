@@ -2,148 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="764c4d75-58ee-4e81-8f4e-65d25d71ccc6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Vue/vue/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/cupertino/images/ui-bg_diagonals-thick_90_eeeeee_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/cupertino/images/ui-bg_flat_15_cd0a0a_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/cupertino/images/ui-bg_glass_100_e4f1fb_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/cupertino/images/ui-bg_glass_50_3baae3_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/cupertino/images/ui-bg_glass_80_d7ebf9_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/cupertino/images/ui-bg_highlight-hard_100_f2f5f7_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/cupertino/images/ui-bg_highlight-hard_70_000000_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/cupertino/images/ui-bg_highlight-soft_100_deedf7_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/cupertino/images/ui-bg_highlight-soft_25_ffef8f_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/cupertino/images/ui-icons_2694e8_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/cupertino/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/cupertino/images/ui-icons_3d80b3_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/cupertino/images/ui-icons_72a7cf_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/cupertino/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/cupertino/jquery-ui-1.8.16.custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/flick/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/flick/images/ui-bg_flat_0_eeeeee_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/flick/images/ui-bg_flat_55_ffffff_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/flick/images/ui-bg_flat_75_ffffff_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/flick/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/flick/images/ui-bg_highlight-soft_100_f6f6f6_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/flick/images/ui-bg_highlight-soft_25_0073ea_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/flick/images/ui-bg_highlight-soft_50_dddddd_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/flick/images/ui-icons_0073ea_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/flick/images/ui-icons_454545_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/flick/images/ui-icons_666666_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/flick/images/ui-icons_ff0084_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/flick/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/flick/jquery-ui-1.8.16.custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/hot-sneaks/images/ui-bg_diagonals-small_40_db4865_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/hot-sneaks/images/ui-bg_diagonals-small_50_93c3cd_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/hot-sneaks/images/ui-bg_diagonals-small_50_ff3853_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/hot-sneaks/images/ui-bg_diagonals-small_75_ccd232_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/hot-sneaks/images/ui-bg_dots-medium_80_ffff38_4x4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/hot-sneaks/images/ui-bg_dots-small_35_35414f_2x2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/hot-sneaks/images/ui-bg_flat_75_ba9217_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/hot-sneaks/images/ui-bg_flat_75_ffffff_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/hot-sneaks/images/ui-bg_white-lines_85_f7f7ba_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/hot-sneaks/images/ui-icons_454545_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/hot-sneaks/images/ui-icons_88a206_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/hot-sneaks/images/ui-icons_c02669_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/hot-sneaks/images/ui-icons_e1e463_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/hot-sneaks/images/ui-icons_ffeb33_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/hot-sneaks/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/hot-sneaks/jquery-ui-1.8.16.custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/redmond/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/redmond/images/ui-bg_flat_55_fbec88_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/redmond/images/ui-bg_glass_75_d0e5f5_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/redmond/images/ui-bg_glass_85_dfeffc_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/redmond/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/redmond/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/redmond/images/ui-bg_inset-hard_100_f5f8f9_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/redmond/images/ui-bg_inset-hard_100_fcfdfd_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/redmond/images/ui-icons_217bc0_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/redmond/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/redmond/images/ui-icons_469bdd_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/redmond/images/ui-icons_6da8d5_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/redmond/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/redmond/images/ui-icons_d8e7f3_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/redmond/images/ui-icons_f9bd01_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/redmond/jquery-ui-1.8.16.custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/start/images/ui-bg_flat_55_999999_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/start/images/ui-bg_flat_75_aaaaaa_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/start/images/ui-bg_glass_45_0078ae_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/start/images/ui-bg_glass_55_f8da4e_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/start/images/ui-bg_glass_75_79c9ec_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/start/images/ui-bg_gloss-wave_45_e14f1c_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/start/images/ui-bg_gloss-wave_50_6eac2c_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/start/images/ui-bg_gloss-wave_75_2191c0_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/start/images/ui-bg_inset-hard_100_fcfdfd_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/start/images/ui-icons_0078ae_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/start/images/ui-icons_056b93_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/start/images/ui-icons_d8e7f3_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/start/images/ui-icons_e0fdff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/start/images/ui-icons_f5e175_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/start/images/ui-icons_f7a50d_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/start/images/ui-icons_fcd113_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/start/jquery-ui-1.8.20.custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/ui-lightness/images/ui-bg_flat_10_000000_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/ui-lightness/images/ui-icons_222222_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/ui-lightness/images/ui-icons_228ef1_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/ui-lightness/images/ui-icons_ef8c08_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/ui-lightness/images/ui-icons_ffd27a_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/ui-lightness/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/css/ui-lightness/jquery-ui-1.8.16.custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/ellipsis-xbl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/css/ui.jqgrid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-bg1251.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-cat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-dk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-hr1250.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-kr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-mne.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-no.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-pt-br.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-sr-latin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-tw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-ua.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/i18n/grid.locale-vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/jqgrid/js/jquery.jqGrid.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/tableSearch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/wenzi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/Canvas/dashuixyin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/Canvas/hecheng.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myErweima.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="everyDay.iws" />
@@ -165,42 +28,93 @@
     <favorites_list name="everyDay" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="table.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/table.html">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="10-canvas.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascript/Canvas/10-canvas.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="75">
+              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tableSearch.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/tableSearch.html">
+      <file leaf-file-name="09-canvas.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascript/Canvas/09-canvas.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="08-canvas.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascript/Canvas/08-canvas.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="07-canvas.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascript/Canvas/07-canvas.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="8" column="85" lean-forward="true" selection-start-line="8" selection-start-column="85" selection-end-line="8" selection-end-column="85" />
+              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Vue/vue/search.html">
+      <file leaf-file-name="06-canvas.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascript/Canvas/06-canvas.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="05-canvas.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascript/Canvas/05-canvas.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="52" lean-forward="true" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="04-canvas.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascript/Canvas/04-canvas.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="03-canvas.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascript/Canvas/03-canvas.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="14-canvas.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascript/Canvas/14-canvas.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
-              <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-              <folding>
-                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-              </folding>
+              <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="07-vueV-if.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vue/vue/07-vueV-if.html">
+      <file leaf-file-name="dashuixyin.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/javascript/Canvas/dashuixyin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+            <state relative-caret-position="475">
+              <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -224,10 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/javascript/ES6/01-letDemo3.html" />
-        <option value="$PROJECT_DIR$/javascript/ES6/01-letDemo4.html" />
-        <option value="$PROJECT_DIR$/javascript/ES6/01-letDemo5.html" />
-        <option value="$PROJECT_DIR$/javascript/ES6/01-letDeno6.html" />
         <option value="$PROJECT_DIR$/javascript/ES6/01-letDemo7.html" />
         <option value="$PROJECT_DIR$/javascript/ES6/02-constDemo.html" />
         <option value="$PROJECT_DIR$/javascript/ES6/02-constDemo2.html" />
@@ -275,6 +185,10 @@
         <option value="$PROJECT_DIR$/project/table.html" />
         <option value="$PROJECT_DIR$/project/tableSearch.html" />
         <option value="$PROJECT_DIR$/Vue/vue/search.html" />
+        <option value="$PROJECT_DIR$/javascript/Canvas/hecheng.html" />
+        <option value="$PROJECT_DIR$/project/myErweima.html" />
+        <option value="$PROJECT_DIR$/myErweima.html" />
+        <option value="$PROJECT_DIR$/javascript/Canvas/dashuixyin.html" />
       </list>
     </option>
   </component>
@@ -291,8 +205,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="173" />
-    <option name="y" value="82" />
+    <option name="x" value="85" />
+    <option name="y" value="443" />
     <option name="width" value="1589" />
     <option name="height" value="958" />
   </component>
@@ -320,6 +234,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -327,22 +242,10 @@
               <item name="everyDay" type="b2602c69:ProjectViewProjectNode" />
               <item name="everyDay" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="everyDay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="everyDay" type="462c0819:PsiDirectoryNode" />
-              <item name="Vue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="everyDay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="everyDay" type="462c0819:PsiDirectoryNode" />
-              <item name="Vue" type="462c0819:PsiDirectoryNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -356,22 +259,22 @@
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
     <property name="nodejs_interpreter_path" value="node" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\main\git\everyDay\javascript" />
+      <recent name="D:\main\git\everyDay" />
+      <recent name="E:\myTest\everyDay" />
+      <recent name="E:\myTest\everyDay\javascript\ES5" />
+      <recent name="E:\myTest\everyDay\Vue1" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\main\git\everyDay\img" />
       <recent name="D:\main\git\everyDay\project" />
       <recent name="E:\myTest\everyDay\javascript\Canvas" />
       <recent name="E:\myTest\everyDay\html" />
       <recent name="E:\myTest\everyDay\vue-router" />
-      <recent name="E:\myTest\everyDay\javascript" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\myTest\everyDay" />
-      <recent name="E:\myTest\everyDay\javascript\ES5" />
-      <recent name="E:\myTest\everyDay\Vue1" />
-      <recent name="E:\myTest\everyDay\vue" />
-      <recent name="E:\myTest\everyDay\project" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -534,15 +437,16 @@
       <workItem from="1523189655754" duration="19000" />
       <workItem from="1523236091875" duration="843000" />
       <workItem from="1523344580212" duration="6091000" />
+      <workItem from="1523949116995" duration="6032000" />
+      <workItem from="1524017334115" duration="13403000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="315875000" />
+    <option name="totallyTimeSpent" value="335310000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14436248" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -597,27 +501,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/qukuailian.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/input.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/BOM/01-windowDemo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javascript/BOM/02-setTimeout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -739,13 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/富文本编辑器.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javascript/Canvas/01-canvas.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -757,76 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/Canvas/11-canvas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/Canvas/12-canvas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/Canvas/04-canvas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/Canvas/03-canvas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/Canvas/05-canvas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="52" lean-forward="true" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/Canvas/06-canvas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/Canvas/07-canvas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/Canvas/09-canvas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/Canvas/10-canvas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/Canvas/08-canvas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -844,24 +650,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/Canvas/14-canvas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javascript/ES6/09-functionRest.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/Canvas/13-canvas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -899,14 +691,14 @@
     <entry file="file://$PROJECT_DIR$/project/table.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project/tableSearch.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="8" column="85" lean-forward="true" selection-start-line="8" selection-start-column="85" selection-end-line="8" selection-end-column="85" />
+          <caret line="8" column="85" selection-start-line="8" selection-start-column="85" selection-end-line="8" selection-end-column="85" />
         </state>
       </provider>
     </entry>
@@ -919,11 +711,138 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Vue/vue/search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        <state relative-caret-position="200">
+          <caret line="58" column="6" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
           <folding>
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/富文本编辑器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myErweima.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="62" column="14" lean-forward="true" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/Canvas/hecheng.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="695">
+          <caret line="79" column="9" lean-forward="true" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#1127#1473#0" />
+            <element signature="e#1539#2821#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/Canvas/13-canvas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/Canvas/12-canvas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/Canvas/11-canvas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/Canvas/10-canvas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/Canvas/09-canvas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/Canvas/08-canvas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/Canvas/07-canvas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/Canvas/06-canvas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/Canvas/05-canvas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="52" lean-forward="true" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/Canvas/03-canvas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/Canvas/04-canvas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/Canvas/14-canvas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/Canvas/dashuixyin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
         </state>
       </provider>
     </entry>

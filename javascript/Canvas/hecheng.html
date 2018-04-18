@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>合成图片</title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+          name="viewport">
+    <meta name="format-detection" content="telephone=no">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+</head>
+<body>
+    <img src="../../img/canyin_cy.jpg" class="showBanner merging" style="display:none;">
+    <img src="../../img/erweima.png" class="erweima merging" style="width:80px;height:auto;display:none;">
+    <div class="img-boxs">
+        <img class="merged" style="width: 100%">
+    </div>
+    <div class="ui-cover" id="ui-loading" style="background-color:rgba(0,0,0,0.2);">
+        <div class="animate spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+    </div>
+</body>
+<script>
+    function hecheng(){
+        draw(function(){
+            $('.merged').attr('src',base64[0]);
+            var screenH=$(window).height();
+            var imgH=$('.img-boxs').height();
+            $('.img-boxs').css({'margin-top':(screenH-imgH)/2});
+            $('body').css({'background':'#000'});
+            $('#ui-loading').removeClass('show');
+        })
+    }
+    var len=$('.merging').length,base64=[];
+    function draw(fn){
+        var c=document.createElement('canvas'),
+            ctx=c.getContext('2d');
+        ctx.rect(0,0,c.width,c.height);
+        function drawing(n) {
+            var temp_w=0,
+                temp_h=0;
+            if (n ==0) {
+                var img = new Image;
+                //img.crossOrigin = 'Anonymous'; //解决跨域
+                img.src = $('.merging')[n].getAttribute('src');
+                temp_w=img.width;
+                temp_h=img.height;
+                c.width=temp_w;
+                c.height=temp_h;
+                img.onload = function () {
+                    ctx.drawImage(img, 0, 0,temp_w, temp_h,0, 0, temp_w, temp_h);
+                    drawing(n + 1);//递归
+                }
+            }else if(n==(len-1)){
+                var img = new Image;
+                img.src = $('.merging')[n].getAttribute('src');
+                temp_w=img.width;
+                temp_h=img.height;
+                img.onload=function(){
+                    ctx.drawImage(img, 0, 0, temp_w, temp_h, temp_w*3.725, temp_h*5.01, temp_w*1.2, temp_h*1.2);
+                    drawing(n + 1);//递归
+                }
+            }else if(len>=n){
+                base64.push(c.toDataURL("image/jpeg",0.8));
+                fn();
+            }
+        }
+        drawing(0);
+    }
+    $('#ui-loading').addClass('show');
+    setTimeout(function(){
+        hecheng();
+        $('#ui-loading').removeClass('show');
+    },800);
+</script>
+</html>
